@@ -27,7 +27,7 @@
       "manual_transcription_verified": false
     }
   ],
-  "answer_status": "not_included_in_this_pdf",
+  "answer_status": "answer_entries_present_in_mixed_year_attachment_pairing_unverified",
   "quality_control": {
     "official_announcement_page_confirmed": true,
     "pdf_opened_and_page_count_confirmed": true,
