@@ -331,7 +331,7 @@
         "miaoli-106-112-index",
         "datong-101-112-index"
       ],
-      "audit_note": "已讀取第381-383頁完整題目表格（字音1-100、字形1-100），但文字層含OCR錯字/漏字，需依原頁圖像人工校對；不可標記正式解析完成。",
+      "audit_note": "已從教育部官方成果專輯PDF文字層擷取字音1-100題原始表格，已保存原文但尚未人工校訂；字形題文字層/視覺層有對應不清問題，尚未完整擷取。",
       "miaoli_attachment_titles": [
         "111年國語字音字形2-1.pdf",
         "111年國語字音字形2-2.pdf"
@@ -340,7 +340,10 @@
       "partial_text_extraction_available": true,
       "partial_pages": "成果專輯第381-383頁；國小組字音及字形題目完整表格均已定位",
       "question_page_text_layer_extracted": true,
-      "full_question_numbering_located": true
+      "full_question_numbering_located": true,
+      "phonetic_text_transcribed": true,
+      "phonetic_question_numbering_1_to_100_located": true,
+      "character_form_question_numbering_1_to_100_located": false
     },
     {
       "year": 112,
@@ -422,7 +425,7 @@
   ],
   "download_status": "not_downloaded",
   "extraction_status": "not_started",
-  "blocker": "官方PDF全文索引已提供完整題目表格文字，但字形及部分字音OCR有錯漏；尚未下載原始PDF二進位或逐頁影像校對，也未完成答案校驗。",
+  "blocker": "字音原始文字已保存但尚待逐題校訂；字形題尚未釐清原始版面及1-100題完整對應；正式答案尚未取得/驗證。",
   "acquisition_attempts": [
     {
       "source_id": "ankeng-100-112-index",
@@ -477,6 +480,15 @@
       "source_url": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
       "method": "open PDF text layer at lines 13383-13486 and 13490-13533",
       "result": "full 1-100 numbering and all four phonetic groups plus eight character-form groups located on official pages 381-383; OCR quality still requires manual visual verification",
+      "downloaded": false,
+      "parsed_partial": true,
+      "parsed": false,
+      "answers_verified": false
+    },
+    {
+      "source_id": "national-111-moe-archive",
+      "method": "exact official PDF text lines 13383-13435 and 13466-13486",
+      "result": "phonetic questions 1-100 raw text transcribed; character-form OCR inconsistent and unresolved",
       "downloaded": false,
       "parsed_partial": true,
       "parsed": false,
