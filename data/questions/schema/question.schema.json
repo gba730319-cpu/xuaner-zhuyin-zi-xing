@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xuaner-question.schema.json",
+  "title": "璇兒字音字形題庫格式",
+  "type": "object",
+  "required": [
+    "id",
+    "competition",
+    "year",
+    "group",
+    "type",
+    "prompt",
+    "answer",
+    "display",
+    "source_id",
+    "verification_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "competition": {
+      "enum": [
+        "keelung",
+        "national",
+        "other_city",
+        "school",
+        "demo"
+      ]
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "group": {
+      "enum": [
+        "elementary"
+      ]
+    },
+    "type": {
+      "enum": [
+        "phonetic",
+        "form"
+      ]
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "answer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "display": {
+      "type": "string",
+      "minLength": 1
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_page": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "demo",
+        "transcribed_unverified",
+        "verified"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "verification_status": {
+            "const": "verified"
+          }
+        },
+        "required": [
+          "verification_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "competition": {
+            "enum": [
+              "keelung",
+              "national",
+              "other_city",
+              "school"
+            ]
+          },
+          "year": {
+            "type": "integer"
+          },
+          "source_id": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}
