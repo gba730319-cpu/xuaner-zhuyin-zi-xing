@@ -21,7 +21,7 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <main>
 <div class="notice"><strong>練習版本 1.0｜基本功能雛形</strong><br>目前先完成練習流程、作答判斷、錯題本與學習紀錄。畫面中的少量示範題只用來測試功能，<strong>不是基隆市或全國賽歷屆正式題目</strong>；正式題庫會在來源與答案核對後逐批加入。</div>
 <nav class="nav" aria-label="功能選單">
-<button class="active" data-tab="home">首頁</button><button data-tab="exam">模擬比賽</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button>
+<button class="active" data-tab="home">首頁</button><button data-tab="exam">模擬比賽</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button><button data-tab="library">題庫狀態</button>
 </nav>
 <section id="home">
 <div class="grid">
@@ -54,11 +54,12 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <div id="feedback" aria-live="polite"></div>
 <div class="row hidden" id="next-row"><span class="muted" id="explain"></span><button class="action primary" id="next">下一題</button></div>
 </section>
+<section id="library" class="panel hidden"><h2>📚 題庫管理</h2><p class="muted">所有練習共用同一份題庫資料。正式歷屆題目必須完成來源與答案核對，才會標記為已驗證。</p><div class="grid"><article class="card"><div class="muted">目前題目總數</div><div class="metric" id="catalog-total">載入中</div></article><article class="card"><div class="muted">已驗證正式題</div><div class="metric" id="catalog-verified">—</div></article><article class="card"><div class="muted">功能示範題</div><div class="metric" id="catalog-demo">—</div></article></div><h3>題庫分類</h3><div id="catalog-breakdown" class="muted">正在讀取題庫資料…</div><p class="muted" id="catalog-updated"></p><p class="notice">目前示範題不會被誤認為歷屆正式題目。正式題目將依年度、競賽類型、組別、字音／字形及來源頁碼管理。</p></section>
 <section id="mistakes" class="panel hidden"><div class="row"><h2>⭐ 錯題本</h2><button class="action" id="clear-mistakes">清空錯題</button></div><div id="mistake-list" class="muted">目前還沒有錯題，繼續加油！</div></section>
 <section id="stats" class="panel hidden"><h2>📈 學習統計</h2><div class="grid"><div><div class="muted">累積作答</div><div class="metric" id="stat-attempts">0</div></div><div><div class="muted">答對題數</div><div class="metric" id="stat-correct">0</div></div><div><div class="muted">整體正確率</div><div class="metric" id="stat-rate">—</div></div></div><h3>分類表現</h3><div class="grid"><article class="card"><h3>🔊 字音</h3><div class="metric" id="stat-phonetic-rate">—</div><p class="muted" id="stat-phonetic-detail">尚無紀錄</p></article><article class="card"><h3>✍️ 字形</h3><div class="metric" id="stat-form-rate">—</div><p class="muted" id="stat-form-detail">尚無紀錄</p></article></div><h3>需要加強的題目</h3><div id="weak-list" class="muted">目前還沒有錯題。</div><p class="muted">紀錄保存在目前這台裝置的瀏覽器中；清除瀏覽器資料可能會一併清除紀錄。</p></section>
 </main><footer>璇兒專屬練習網站 · 題庫逐題查證後持續擴充</footer>
 <script>
-const bank={
+let bank={
  phonetic:[
   {id:"demo-p1",prompt:"參差",answer:"ㄘㄣ ㄘ",display:"ㄘㄣ ㄘ",note:"「參差」讀作 ㄘㄣ ㄘ。"},
   {id:"demo-p2",prompt:"剎那",answer:"ㄔㄚˋ ㄋㄚˋ",display:"ㄔㄚˋ ㄋㄚˋ",note:"「剎那」讀作 ㄔㄚˋ ㄋㄚˋ。"},
@@ -70,8 +71,10 @@ const bank={
   {id:"demo-f3",prompt:"請輸入正確成語：迫不及＿＿",answer:"待",display:"待",note:"正確成語為「迫不及待」。"}
  ]};
 let mode="phonetic",index=0,locked=false,retryItem=null;
-const examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];
+let examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];
 let examAnswers=[],examIndex=0,examSeconds=600,examClock=null,examRunning=false;
+let questionCatalog=null;
+async function loadQuestionCatalog(){try{const response=await fetch("./data/questions/catalog.json");if(!response.ok)throw new Error("題庫讀取失敗");const data=await response.json();if(!Array.isArray(data.questions))throw new Error("題庫格式不正確");questionCatalog=data;bank={phonetic:data.questions.filter(q=>q.type==="phonetic").map(q=>({...q,note:q.explanation||""})),form:data.questions.filter(q=>q.type==="form").map(q=>({...q,note:q.explanation||""}))};examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];$("catalog-total").textContent=data.questions.length;$("catalog-verified").textContent=data.questions.filter(q=>q.verification_status==="verified").length;$("catalog-demo").textContent=data.questions.filter(q=>q.verification_status==="demo").length;const years=[...new Set(data.questions.filter(q=>q.year!==null).map(q=>q.year))].sort((a,b)=>a-b);$("catalog-breakdown").textContent="字音 "+bank.phonetic.length+" 題 · 字形 "+bank.form.length+" 題 · 年度資料 "+(years.length?years.map(y=>y+"年").join("、"):"尚無正式年度題目");$("catalog-updated").textContent="題庫更新日期："+(data.updated_at||"未提供");document.querySelectorAll(".tag").forEach(el=>{if(el.textContent==="功能示範題共 6 題")el.textContent="題庫共 "+data.questions.length+" 題"})}catch(error){$("catalog-total").textContent="載入失敗";$("catalog-breakdown").textContent="目前使用內建示範題。請確認網站已部署，且 data/questions/catalog.json 可正常讀取。";}}
 function showExamQuestion(){const q=examQuestions[examIndex];$("exam-kind").textContent=q.kind;$("exam-prompt").textContent=q.prompt;$("exam-answer").value=examAnswers[examIndex]||"";$("exam-counter").textContent="第 "+(examIndex+1)+" / "+examQuestions.length+" 題";$("exam-progress").style.width=((examIndex+1)/examQuestions.length*100)+"%";$("exam-prev").disabled=examIndex===0;$("exam-next").disabled=examIndex===examQuestions.length-1}
 function examMove(delta){examAnswers[examIndex]=$("exam-answer").value;examIndex=Math.max(0,Math.min(examQuestions.length-1,examIndex+delta));showExamQuestion()}
 function safeText(value){return String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
@@ -115,4 +118,5 @@ $("exam-start").addEventListener("click",startExam);$("exam-prev").addEventListe
 $("answer").addEventListener("keydown",e=>{if(e.key==="Enter"){locked?next():check()}});
 $("mistake-list").addEventListener("click",e=>{const retry=e.target.closest("[data-retry]"),remove=e.target.closest("[data-remove]");if(retry){const q=mistakes[Number(retry.dataset.retry)];if(!q)return;const m=q.mode||(q.modeLabel==="字音"?"phonetic":"form");retryItem=q;mode=m;index=0;locked=false;tab(m);loadQuestion();return}if(remove){mistakes.splice(Number(remove.dataset.remove),1);save();renderMistakes()}});$("clear-mistakes").addEventListener("click",()=>{if(confirm("確定清空錯題本？")){mistakes=[];save();renderMistakes()}});
 renderStats();
+loadQuestionCatalog();
 </script></body></html>
