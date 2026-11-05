@@ -1240,6 +1240,652 @@
         "成語",
         "參考練習"
       ]
+    },
+    {
+      "id": "ref-p-034",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "一曝十寒",
+      "answer": "ㄧ ㄆㄨˋ ㄕˊ ㄏㄢˊ",
+      "display": "ㄧ ㄆㄨˋ ㄕˊ ㄏㄢˊ",
+      "explanation": "「一曝十寒」的「曝」讀ㄆㄨˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-035",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "暴虎馮河",
+      "answer": "ㄅㄠˋ ㄏㄨˇ ㄆㄧㄥˊ ㄏㄜˊ",
+      "display": "ㄅㄠˋ ㄏㄨˇ ㄆㄧㄥˊ ㄏㄜˊ",
+      "explanation": "「暴虎馮河」的「馮」讀ㄆㄧㄥˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-036",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "否極泰來",
+      "answer": "ㄆㄧˇ ㄐㄧˊ ㄊㄞˋ ㄌㄞˊ",
+      "display": "ㄆㄧˇ ㄐㄧˊ ㄊㄞˋ ㄌㄞˊ",
+      "explanation": "「否極泰來」的「否」讀ㄆㄧˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-037",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "寧缺勿濫",
+      "answer": "ㄋㄧㄥˊ ㄑㄩㄝ ㄨˋ ㄌㄢˋ",
+      "display": "ㄋㄧㄥˊ ㄑㄩㄝ ㄨˋ ㄌㄢˋ",
+      "explanation": "「寧缺勿濫」的「寧」讀ㄋㄧㄥˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-038",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "一蹴可幾",
+      "answer": "ㄧ ㄘㄨˋ ㄎㄜˇ ㄐㄧˇ",
+      "display": "ㄧ ㄘㄨˋ ㄎㄜˇ ㄐㄧˇ",
+      "explanation": "「一蹴可幾」的「幾」讀ㄐㄧˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-039",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "如法炮製",
+      "answer": "ㄖㄨˊ ㄈㄚˇ ㄆㄠˊ ㄓˋ",
+      "display": "ㄖㄨˊ ㄈㄚˇ ㄆㄠˊ ㄓˋ",
+      "explanation": "「炮製」的「炮」讀ㄆㄠˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-040",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "妄自菲薄",
+      "answer": "ㄨㄤˋ ㄗˋ ㄈㄟˇ ㄅㄛˊ",
+      "display": "ㄨㄤˋ ㄗˋ ㄈㄟˇ ㄅㄛˊ",
+      "explanation": "「菲薄」的「菲」讀ㄈㄟˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-041",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "剛愎自用",
+      "answer": "ㄍㄤ ㄅㄧˋ ㄗˋ ㄩㄥˋ",
+      "display": "ㄍㄤ ㄅㄧˋ ㄗˋ ㄩㄥˋ",
+      "explanation": "「剛愎」的「愎」讀ㄅㄧˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-042",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "一丘之貉",
+      "answer": "ㄧ ㄑㄧㄡ ㄓ ㄏㄜˊ",
+      "display": "ㄧ ㄑㄧㄡ ㄓ ㄏㄜˊ",
+      "explanation": "「一丘之貉」的「貉」讀ㄏㄜˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-043",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "相形見絀",
+      "answer": "ㄒㄧㄤ ㄒㄧㄥˊ ㄐㄧㄢˋ ㄔㄨˋ",
+      "display": "ㄒㄧㄤ ㄒㄧㄥˊ ㄐㄧㄢˋ ㄔㄨˋ",
+      "explanation": "「相形見絀」的「形」讀ㄒㄧㄥˊ，「絀」讀ㄔㄨˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-044",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "拾人牙慧",
+      "answer": "ㄕˊ ㄖㄣˊ ㄧㄚˊ ㄏㄨㄟˋ",
+      "display": "ㄕˊ ㄖㄣˊ ㄧㄚˊ ㄏㄨㄟˋ",
+      "explanation": "「拾人牙慧」的「拾」讀ㄕˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-045",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "飲鴆止渴",
+      "answer": "ㄧㄣˇ ㄓㄣˋ ㄓˇ ㄎㄜˇ",
+      "display": "ㄧㄣˇ ㄓㄣˋ ㄓˇ ㄎㄜˇ",
+      "explanation": "「飲鴆止渴」的「鴆」讀ㄓㄣˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-046",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "暴殄天物",
+      "answer": "ㄅㄠˋ ㄊㄧㄢˇ ㄊㄧㄢ ㄨˋ",
+      "display": "ㄅㄠˋ ㄊㄧㄢˇ ㄊㄧㄢ ㄨˋ",
+      "explanation": "「暴殄天物」的「殄」讀ㄊㄧㄢˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-047",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "戛然而止",
+      "answer": "ㄐㄧㄚˊ ㄖㄢˊ ㄦˊ ㄓˇ",
+      "display": "ㄐㄧㄚˊ ㄖㄢˊ ㄦˊ ㄓˇ",
+      "explanation": "「戛然」的「戛」讀ㄐㄧㄚˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-048",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "如喪考妣",
+      "answer": "ㄖㄨˊ ㄙㄤˋ ㄎㄠˇ ㄅㄧˇ",
+      "display": "ㄖㄨˊ ㄙㄤˋ ㄎㄠˇ ㄅㄧˇ",
+      "explanation": "「考妣」的「妣」讀ㄅㄧˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-049",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "鱗次櫛比",
+      "answer": "ㄌㄧㄣˊ ㄘˋ ㄐㄧㄝˊ ㄅㄧˇ",
+      "display": "ㄌㄧㄣˊ ㄘˋ ㄐㄧㄝˊ ㄅㄧˇ",
+      "explanation": "「櫛」讀ㄐㄧㄝˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-050",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "脫穎而出",
+      "answer": "ㄊㄨㄛ ㄧㄥˇ ㄦˊ ㄔㄨ",
+      "display": "ㄊㄨㄛ ㄧㄥˇ ㄦˊ ㄔㄨ",
+      "explanation": "「脫穎而出」的「穎」讀ㄧㄥˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "成語讀音",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-034",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：飲＿止渴",
+      "answer": "鴆",
+      "display": "鴆",
+      "explanation": "正確成語是「飲鴆止渴」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-035",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：一丘之＿",
+      "answer": "貉",
+      "display": "貉",
+      "explanation": "正確成語是「一丘之貉」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-036",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：暴＿天物",
+      "answer": "殄",
+      "display": "殄",
+      "explanation": "正確成語是「暴殄天物」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-037",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：戛然而＿",
+      "answer": "止",
+      "display": "止",
+      "explanation": "正確詞語是「戛然而止」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-038",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：如喪考＿",
+      "answer": "妣",
+      "display": "妣",
+      "explanation": "正確成語是「如喪考妣」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-039",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：鱗次＿比",
+      "answer": "櫛",
+      "display": "櫛",
+      "explanation": "正確成語是「鱗次櫛比」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-040",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：脫＿而出",
+      "answer": "穎",
+      "display": "穎",
+      "explanation": "正確成語是「脫穎而出」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-041",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：沆瀣一＿",
+      "answer": "氣",
+      "display": "氣",
+      "explanation": "正確成語是「沆瀣一氣」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-042",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：罄竹難＿",
+      "answer": "書",
+      "display": "書",
+      "explanation": "正確成語是「罄竹難書」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-043",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：怙惡不＿",
+      "answer": "悛",
+      "display": "悛",
+      "explanation": "正確成語是「怙惡不悛」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-044",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：相形見＿",
+      "answer": "絀",
+      "display": "絀",
+      "explanation": "正確成語是「相形見絀」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-045",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：如法＿製",
+      "answer": "炮",
+      "display": "炮",
+      "explanation": "正確詞語是「如法炮製」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-046",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：剛＿自用",
+      "answer": "愎",
+      "display": "愎",
+      "explanation": "正確成語是「剛愎自用」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-047",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：妄自＿薄",
+      "answer": "菲",
+      "display": "菲",
+      "explanation": "正確成語是「妄自菲薄」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-048",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：一＿十寒",
+      "answer": "曝",
+      "display": "曝",
+      "explanation": "正確成語是「一曝十寒」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-049",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：否極泰＿",
+      "answer": "來",
+      "display": "來",
+      "explanation": "正確成語是「否極泰來」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-050",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：拾人牙＿",
+      "answer": "慧",
+      "display": "慧",
+      "explanation": "正確成語是「拾人牙慧」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
     }
   ]
 }
