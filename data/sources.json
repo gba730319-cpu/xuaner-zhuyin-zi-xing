@@ -74,7 +74,7 @@
       "title": "新北市溪口國小 115 學年度字音字形參考題庫（列出全國賽歷屆附件）",
       "url": "https://www.wkes.ntpc.edu.tw/p/406-1000-9266%2Cr88.php",
       "source_type": "question_and_answer_index",
-      "status": "attachment_titles_confirmed_on_source_page",
+      "status": "114_question_and_answer_attachment_titles_reconfirmed_direct_files_not_retrieved",
       "listed_files": [
         "97-112國小組題目.pdf",
         "97-112國小組解答.pdf",
@@ -83,7 +83,7 @@
         "114國語字音字形-國小組(答案).pdf",
         "114年國語字音字形國小組_題目卷.pdf"
       ],
-      "notes": "頁面搜尋結果確認列出 97-112 合併題目/解答 PDF，以及 113、114 年各自題目與答案附件；本次未取得 PDF 檔案本體。"
+      "notes": "2026-11-05再次查詢確認頁面明列114國語字音字形-國小組(答案).pdf及114年國語字音字形國小組_題目卷.pdf。搜尋索引可確認附件名稱與存在，但目前未取得兩份PDF本體或直接下載URL；不可宣稱已下載或已完成題目。"
     },
     {
       "id": "keelung-115-contest-site",
@@ -359,6 +359,21 @@
         "answer_key_available": false
       },
       "notes": "教育部114年全國語文競賽官方公告附件。公告檔名雖稱答案卷，實際PDF內頁標題為國小組字音字形試題；可作為題目原始來源，不可作為答案來源。"
+    },
+    {
+      "id": "national-114-xikou-separate-question-answer-attachments",
+      "competition": "national",
+      "year": 114,
+      "group": "elementary",
+      "title": "114年全國語文競賽國小組題目卷與答案卷（溪口國小索引所列獨立附件）",
+      "url": "https://www.wkes.ntpc.edu.tw/p/406-1000-9266%2Cr88.php",
+      "source_type": "school_archive_attachment_index",
+      "status": "attachment_titles_confirmed_pdf_files_not_retrieved",
+      "attachment_titles": [
+        "114年國語字音字形國小組_題目卷.pdf",
+        "114國語字音字形-國小組(答案).pdf"
+      ],
+      "notes": "搜尋引擎於2026-11-05重新索引頁面確認兩份獨立附件名稱。頁面本身的直接存取受限，尚未取得PDF二進位、文字層或直接附件網址；待取得後逐頁核對題目與答案。"
     }
   ]
 }
