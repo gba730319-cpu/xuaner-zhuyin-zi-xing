@@ -195,8 +195,21 @@
         111,
         112
       ],
-      "status": "index_confirmed",
-      "notes": "縣政府教育處檔案清單列出106至112年度國小字音字形PDF；各年度分為2-1、2-2檔案。頁面目前逾時，PDF本體尚未下載。"
+      "status": "direct_pdf_link_confirmed_partial",
+      "notes": "已成功從官方檔案清單點開106年2-1附件，解析端辨識為PDF、共8頁；但目前下載工具無法取得二進位檔，故仍不得標記downloaded或parsed。其餘附件連結尚待逐一取得。",
+      "pdf_links": [
+        {
+          "year": 106,
+          "part": "2-1",
+          "filename": "106年國語字音字形2-1.pdf",
+          "url": "https://mlc.edu.tw/downloadfile.php?code=3ec4eeac29423f7798bd5eb9d838ec48&download=238518&id=1572",
+          "web_pdf_metadata": {
+            "content_type": "application/pdf",
+            "pages": 8
+          },
+          "binary_downloaded": false
+        }
+      ]
     },
     {
       "id": "datong-101-112-index",
