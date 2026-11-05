@@ -310,6 +310,17 @@
       "status": "attachment_title_confirmed_page_404",
       "attachment_title": "111全國語文競賽試題 - 字音字形(題目+解答).pdf",
       "notes": "學校索引摘要列出111年全國賽題目+解答合併PDF，但頁面目前404；尚未取得檔案本體。"
+    },
+    {
+      "id": "national-111-eduweb-copy",
+      "competition": "national",
+      "year": 111,
+      "group": "elementary",
+      "title": "中華民國一一一年全國語文競賽 國小組字音字形試題（eduweb鏡像）",
+      "url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+      "source_type": "third_party_pdf_mirror",
+      "status": "search_index_text_confirmed_binary_download_failed",
+      "notes": "搜尋引擎已擷取出111年國小組字音字形試題標題與部分題目文字；直接下載PDF本體失敗。內容可與教育部111成果專輯逐段交叉核對，尚未視為答案卷。"
     }
   ]
 }
