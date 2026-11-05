@@ -1,7 +1,7 @@
 {
   "source_name": "宜蘭縣員山國小－全國語文競賽國小組國語字音字形考古題",
   "source_page": "https://www.yeses.ilc.edu.tw/2023/10/31/全國語文競賽-國小組國語字音字形考古題100111/",
-  "policy": "依使用者指示，直接採用員山國小附件中的題目與標準答案；不因檔名與內文年份不一致而排除，不另行逐題字典核對。",
+  "policy": "依使用者指示，直接採用員山國小附件中的題目與標準答案；不因檔名與內文年份不一致而排除，不另行逐題字典核對。解答PDF若已包含題目與答案，直接以該PDF為唯一匯入來源。",
   "documents": [
     {
       "file": "102小生組全國賽題目.pdf",
@@ -33,5 +33,6 @@
     }
   ],
   "last_checked": "2026-11-05",
-  "import_status": "No questions imported from these PDFs yet; this manifest tracks source retrieval only."
+  "import_status": "No questions imported from these PDFs yet; this manifest tracks source retrieval only.",
+  "import_strategy": "優先直接解析解答PDF；若解答PDF本身同時包含完整題目與標準答案，直接由同一份PDF建立題庫，不再要求另找題目PDF配對。只有答案PDF確實缺少題目內容時，才補用題目PDF。"
 }
