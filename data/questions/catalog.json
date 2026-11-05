@@ -1896,17 +1896,16 @@
       "prompt": "蜷（蜷曲）",
       "answer": "ㄑㄩㄢˊ",
       "display": "ㄑㄩㄢˊ",
-      "explanation": "官方110年國小組答案表：蜷（蜷曲），標準注音為 ㄑㄩㄢˊ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄑㄩㄢˊ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p002",
@@ -1917,17 +1916,16 @@
       "prompt": "簸（簸箕）",
       "answer": "ㄅㄛˋ",
       "display": "ㄅㄛˋ",
-      "explanation": "官方110年國小組答案表：簸（簸箕），標準注音為 ㄅㄛˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄅㄛˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p003",
@@ -1938,17 +1936,16 @@
       "prompt": "累（牽累）",
       "answer": "ㄌㄟˋ",
       "display": "ㄌㄟˋ",
-      "explanation": "官方110年國小組答案表：累（牽累），標準注音為 ㄌㄟˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄌㄟˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p005",
@@ -1959,17 +1956,16 @@
       "prompt": "暈（光暈）",
       "answer": "ㄩㄣˋ",
       "display": "ㄩㄣˋ",
-      "explanation": "官方110年國小組答案表：暈（光暈），標準注音為 ㄩㄣˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄩㄣˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p004",
@@ -1980,17 +1976,16 @@
       "prompt": "供（串供）",
       "answer": "ㄍㄨㄥˋ",
       "display": "ㄍㄨㄥˋ",
-      "explanation": "官方110年國小組答案表：供（串供），標準注音為 ㄍㄨㄥˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄍㄨㄥˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p006",
@@ -2001,17 +1996,16 @@
       "prompt": "散（閒散）",
       "answer": "ㄙㄢˇ",
       "display": "ㄙㄢˇ",
-      "explanation": "官方110年國小組答案表：散（閒散），標準注音為 ㄙㄢˇ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄙㄢˇ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p007",
@@ -2022,17 +2016,16 @@
       "prompt": "腋（腋下）",
       "answer": "ㄧㄝˋ",
       "display": "ㄧㄝˋ",
-      "explanation": "官方110年國小組答案表：腋（腋下），標準注音為 ㄧㄝˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄧㄝˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p008",
@@ -2043,17 +2036,16 @@
       "prompt": "勒（勒索）",
       "answer": "ㄌㄜˋ",
       "display": "ㄌㄜˋ",
-      "explanation": "官方110年國小組答案表：勒（勒索），標準注音為 ㄌㄜˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄌㄜˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p009",
@@ -2064,17 +2056,16 @@
       "prompt": "佻（佻巧）",
       "answer": "ㄊㄧㄠ",
       "display": "ㄊㄧㄠ",
-      "explanation": "官方110年國小組答案表：佻（佻巧），標準注音為 ㄊㄧㄠ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄊㄧㄠ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p012",
@@ -2085,17 +2076,16 @@
       "prompt": "角（丑角）",
       "answer": "ㄐㄩㄝˊ",
       "display": "ㄐㄩㄝˊ",
-      "explanation": "官方110年國小組答案表：角（丑角），標準注音為 ㄐㄩㄝˊ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄐㄩㄝˊ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p013",
@@ -2106,17 +2096,16 @@
       "prompt": "蕹（蕹菜）",
       "answer": "ㄩㄥˋ",
       "display": "ㄩㄥˋ",
-      "explanation": "官方110年國小組答案表：蕹（蕹菜），標準注音為 ㄩㄥˋ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄩㄥˋ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p014",
@@ -2127,17 +2116,16 @@
       "prompt": "弛（廢弛）",
       "answer": "ㄔˊ",
       "display": "ㄔˊ",
-      "explanation": "官方110年國小組答案表：弛（廢弛），標準注音為 ㄔˊ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄔˊ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p015",
@@ -2148,17 +2136,16 @@
       "prompt": "勘（踏勘）",
       "answer": "ㄎㄢ",
       "display": "ㄎㄢ",
-      "explanation": "官方110年國小組答案表：勘（踏勘），標準注音為 ㄎㄢ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄎㄢ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p016",
@@ -2169,17 +2156,16 @@
       "prompt": "嘮（嘮叨）",
       "answer": "ㄌㄠˊ",
       "display": "ㄌㄠˊ",
-      "explanation": "官方110年國小組答案表：嘮（嘮叨），標準注音為 ㄌㄠˊ。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "ntcu-110-official-answer",
       "source_page": "110年國小組官方答案PDF，第1頁，字音部分",
-      "verification_status": "verified",
+      "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
         "官方來源待重新配對",
-        "官方競賽答案核對"
-      ],
-      "official_answer": "ㄌㄠˊ"
+        "待官方答案逐題配對"
+      ]
     },
     {
       "id": "national-110-elementary-p019",
@@ -2190,14 +2176,15 @@
       "prompt": "嘀咕",
       "answer": "ㄉㄧˊ ㄍㄨ",
       "display": "ㄉㄧˊ ㄍㄨ",
-      "explanation": "原始來源與國立臺中教育大學公開之110年全國語文競賽國小組答案檔內容不符，暫停列為正式已核對題；待依官方試題重新建檔。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "maiya-110-elementary",
       "source_page": "字音部分",
       "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
-        "官方來源待重新配對"
+        "官方來源待重新配對",
+        "待官方答案逐題配對"
       ]
     },
     {
@@ -2209,14 +2196,15 @@
       "prompt": "嚷嚷",
       "answer": "ㄖㄤˇ ㄖㄤˇ",
       "display": "ㄖㄤˇ ㄖㄤˇ",
-      "explanation": "原始來源與國立臺中教育大學公開之110年全國語文競賽國小組答案檔內容不符，暫停列為正式已核對題；待依官方試題重新建檔。",
+      "explanation": "已取得110年官方試題與答案檔案來源，但目前可讀取文字尚未完成題號逐一配對；暫不標記已核對。",
       "source_id": "maiya-110-elementary",
       "source_page": "字音部分",
       "verification_status": "needs_review",
       "tags": [
         "110年全國語文競賽",
         "教育部辭典核對",
-        "官方來源待重新配對"
+        "官方來源待重新配對",
+        "待官方答案逐題配對"
       ]
     }
   ]
