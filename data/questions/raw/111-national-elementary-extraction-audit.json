@@ -4,44 +4,61 @@
   "group": "elementary",
   "source_id": "national-111-moe-archive",
   "source_url": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
-  "extraction_pages": "成果專輯印刷頁381-383（PDF實際頁碼需再次核對）",
-  "status": "partial_text_layer_extracted_not_verified",
+  "extraction_pages": "成果專輯381-383（PDF頁碼/印刷頁碼以官方專輯標示）",
+  "status": "full_question_page_text_layer_located_ocr_unverified",
   "items": {
     "phonetic": {
-      "detected_number_groups": [
+      "full_numbering_located": true,
+      "question_number_groups": [
         "1-10",
+        "11-25",
         "26-35",
+        "36-50",
         "51-60",
-        "76-85"
+        "61-75",
+        "76-85",
+        "86-100"
       ],
-      "count_visible_numbered_items": 40,
-      "note": "全文解析可讀出這四組題號與部分注音/詞語，但並未確認其是否涵蓋完整字音100題；不得自行補齊缺失題號。"
+      "visible_table_pages": [
+        "381"
+      ],
+      "note": "官方全文索引顯示國小組字音題共1-100，分四個題表區塊；注音與詞語可讀取，但OCR可能誤辨字詞，須核對原頁。"
     },
     "character_form": {
-      "detected_page": "成果專輯382-383附近",
-      "visual_grid_numbering": "OCR視覺描述出現1-100編號與紅框字，但題目及答案欄文字辨識不可靠",
-      "text_layer_rows": [
+      "full_numbering_located": true,
+      "question_number_groups": [
         "1-10",
+        "11-25",
         "26-35",
+        "36-50",
         "51-60",
-        "76-85"
+        "61-75",
+        "76-85",
+        "86-100"
       ],
-      "note": "文字層辨識有錯字、漏字及疑似跨頁混入其他語別內容，尚不能將辨識結果當作正式題目。"
+      "visible_table_pages": [
+        "382-383"
+      ],
+      "note": "官方全文索引顯示字形題1-100完整題表；上方答案字與下方成語/詞語片段可讀取，但OCR錯漏明顯，需人工核對。"
     }
   },
   "quality_control": {
     "pdf_binary_downloaded": false,
-    "text_layer_partial": true,
+    "official_question_page_text_layer_located": true,
+    "phonetic_question_numbering_1_to_100_located": true,
+    "character_form_question_numbering_1_to_100_located": true,
+    "full_text_manually_corrected": false,
     "full_100_phonetic_items_verified": false,
     "full_100_character_items_verified": false,
     "answers_verified": false,
     "approved_for_practice": false
   },
   "next_actions": [
-    "取得同一年度可下載的學校鏡像題目/答案PDF",
-    "逐頁比對官方成果專輯與鏡像檔，確認版面及年度",
-    "核對完整100字音、100字形題目及答案",
-    "僅在核對完成後轉成正式question schema"
+    "取得官方頁面可視化影像或可信任學校鏡像PDF",
+    "逐題校對字音詞語與注音",
+    "逐題校對字形目標字及詞語",
+    "比對官方答案/評判講評",
+    "完成校對後匯入正式題庫"
   ],
   "retrieval_attempts": [
     {
