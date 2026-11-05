@@ -84,7 +84,10 @@
       ],
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
-      "attachment_title_confirmed": true
+      "attachment_title_confirmed": true,
+      "additional_sources": [
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 102,
@@ -101,7 +104,10 @@
       ],
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
-      "attachment_title_confirmed": true
+      "attachment_title_confirmed": true,
+      "additional_sources": [
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 103,
@@ -118,7 +124,10 @@
       ],
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
-      "attachment_title_confirmed": true
+      "attachment_title_confirmed": true,
+      "additional_sources": [
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 104,
@@ -135,7 +144,10 @@
       ],
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
-      "attachment_title_confirmed": true
+      "attachment_title_confirmed": true,
+      "additional_sources": [
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 105,
@@ -152,7 +164,10 @@
       ],
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
-      "attachment_title_confirmed": true
+      "attachment_title_confirmed": true,
+      "additional_sources": [
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 106,
@@ -171,7 +186,11 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 107,
@@ -190,7 +209,11 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 108,
@@ -209,7 +232,11 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 109,
@@ -228,7 +255,11 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 110,
@@ -247,7 +278,11 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 111,
@@ -266,7 +301,12 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ],
+      "audit_note": "官方114公告附件PDF文字層前段出現111年題目標題；需逐頁釐清，不可直接作為114答案。"
     },
     {
       "year": 112,
@@ -285,7 +325,11 @@
       "question_attachment": "97-112國小組題目_compressed.pdf",
       "answer_attachment": "97-112國小組解答_compressed.pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "additional_sources": [
+        "miaoli-106-112-index",
+        "datong-101-112-index"
+      ]
     },
     {
       "year": 113,
@@ -321,7 +365,8 @@
       "question_attachment": "114年國語字音字形國小組_題目卷.pdf",
       "answer_attachment": "114國語字音字形-國小組(答案).pdf",
       "attachment_title_confirmed": true,
-      "cross_check_source": "skes-106-114-index"
+      "cross_check_source": "skes-106-114-index",
+      "audit_note": "官方公告更正版附件的PDF文字層同時出現111及114年度標題；須分頁核對。"
     }
   ],
   "next_actions": [
@@ -346,6 +391,14 @@
       "method": "open source page and click individual PDF attachment links",
       "result": "attachment links resolved; binary response unsupported by current retrieval tool",
       "downloaded": false
+    },
+    {
+      "source_id": "national-114-pdf-content-audit",
+      "source_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+      "method": "open official PDF and inspect extracted text",
+      "result": "PDF text layer exposes mixed 111 and 114 year headings; content requires page-by-page audit",
+      "downloaded": false,
+      "parsed_partial": true
     }
   ]
 }
