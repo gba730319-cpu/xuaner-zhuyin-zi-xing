@@ -122,14 +122,14 @@
       "title": "114 年全國語文競賽國小組字音字形答案公告",
       "url": "https://language114.eduweb.tw/Module/Bulletin/Detail.php?ID=17",
       "source_type": "official_answer_announcement",
-      "status": "mixed_year_attachment_page1_111_phonetic_page2_114_form",
-      "notes": "重新核對PDF全文後發現附件混有不同年度：第1頁內頁標題為111年全國賽國小組字音；第2頁內頁標題為114年全國賽國小組字形。附件含答案欄，但不能當作114年完整題本；逐題題幹與答案配對仍待核驗。",
+      "status": "mixed_year_pdf_111_phonetic_114_form_answer_entries_present",
+      "notes": "官方公告附件實際為混合年度PDF：第1頁L0-L39是111年國小組字音試題；第2頁L40-L68是114年國小組字形部分，L51-L68含字形答案表。114字形答案逐題提示配對仍待人工核對；114字音尚缺正確題本與答案。",
       "pdf_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
       "document_identity": {
         "verified_title": "中華民國一一四年全國語文競賽 國小組 字音字形試題",
         "page_count": 2,
-        "page_0": "111年字音部分（非114年）",
-        "page_1": "114年字形部分",
+        "page_0": "111年字音試題（非114）",
+        "page_1": "114年字形部分（含答案表）",
         "answer_key_included": "answer entries present, but mixed-year and pairing requires verification",
         "note": "雖然官方公告附件名稱含「答案卷」，實際PDF內頁標題為「試題」，是待作答題本，不是答案卷。"
       }
@@ -349,7 +349,7 @@
       "title": "114年全國語文競賽國小組字音字形試題卷（教育部官方公告附件）",
       "url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
       "source_type": "official_question_pdf",
-      "status": "pdf_text_extracted_unverified",
+      "status": "mixed_year_pdf_page_1_111_phonetic_page_2_114_form",
       "page_count": 2,
       "extraction": {
         "page_0": "phonetic_section_question_numbers_1_to_100",
@@ -358,7 +358,13 @@
         "manual_correction_complete": false,
         "answer_key_available": false
       },
-      "notes": "教育部114年全國語文競賽官方公告附件。公告檔名雖稱答案卷，實際PDF內頁標題為國小組字音字形試題；可作為題目原始來源，不可作為答案來源。"
+      "notes": "2026-11-05依官方PDF全文逐行重新確認。第1頁內頁標題為111年，第2頁為114年；不能將第1頁當作114字音。",
+      "document_identity": {
+        "page_count": 2,
+        "page_1": "111年國小組字音試題（非114）",
+        "page_2": "114年國小組字形部分（含答案字與提示語列）",
+        "answer_status": "114 form answer entries present; prompt-answer alignment pending"
+      }
     },
     {
       "id": "national-114-xikou-separate-question-answer-attachments",
