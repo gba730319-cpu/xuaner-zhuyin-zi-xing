@@ -19,13 +19,13 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <body>
 <header><h1>🐰 璇兒字音字形練習</h1><p>每天一點點，累積比賽實力</p></header>
 <main>
-<div class="notice"><strong>練習版本 1.0｜基本功能雛形</strong><br>目前先完成練習流程、作答判斷、錯題本與學習紀錄。畫面中的少量示範題只用來測試功能，<strong>不是基隆市或全國賽歷屆正式題目</strong>；正式題庫會在來源與答案核對後逐批加入。</div>
+<div class="notice"><strong>練習版本 1.0｜基本功能雛形</strong><br>目前已有100題可練習內容，包含參考練習題與少量功能示範題。<strong>參考練習題不是歷屆正式試題</strong>；正式歷屆題將在來源與答案核對後另行標示加入。</div>
 <nav class="nav" aria-label="功能選單">
 <button class="active" data-tab="home">首頁</button><button data-tab="exam">模擬比賽</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button><button data-tab="library">題庫狀態</button><button data-tab="importer">題庫匯入</button>
 </nav>
 <section id="home">
 <div class="grid">
-<article class="card"><h2>⏱️ 模擬比賽</h2><p>限時作答、交卷計分；目前為功能測試題。</p><button class="action primary" data-go="exam">進入測驗</button></article><article class="card"><h2>🔊 字音練習</h2><p>看詞語，輸入正確注音。</p><button class="action primary" data-go="phonetic">開始練習</button></article>
+<article class="card"><h2>⏱️ 模擬比賽</h2><p>限時作答、交卷計分；目前使用已整理的100題練習題。</p><button class="action primary" data-go="exam">進入測驗</button></article><article class="card"><h2>🔊 字音練習</h2><p>看詞語，輸入正確注音。</p><button class="action primary" data-go="phonetic">開始練習</button></article>
 <article class="card"><h2>✍️ 字形練習</h2><p>依提示輸入正確詞語。</p><button class="action primary" data-go="form">開始練習</button></article>
 <article class="card"><h2>⭐ 我的錯題本</h2><p>答錯的題目會自動收錄在這裡。</p><button class="action" data-go="mistakes">查看錯題</button></article>
 </div>
@@ -37,15 +37,15 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <div class="panel"><h2>比賽規格參考</h2><span class="tag">字音 100 題</span><span class="tag">字形 100 題</span><span class="tag">作答 10 分鐘</span><span class="tag">每題 0.5 分</span><p class="muted">依基隆市 115 年競賽規格設定；正式模擬考與完整題庫將於後續版本加入。</p></div>
 </section>
 <section id="exam" class="panel hidden">
-<div class="row"><div><span class="tag">限時測驗</span><span class="tag">功能示範題共 6 題</span></div><div class="timer" id="exam-timer">10:00</div></div>
-<p class="muted">正式規格為 200 題、10 分鐘、每題 0.5 分。因正式題庫尚未完成，本測驗只用 6 題測試計時、作答與計分功能，成績不代表正式比賽表現。</p>
+<div class="row"><div><span class="tag">限時測驗</span><span class="tag">100題練習題</span></div><div class="timer" id="exam-timer">10:00</div></div>
+<p class="muted">本網站目前提供100題練習題（字音50題、字形50題）。此為題庫練習測驗，並非完整正式賽程；計時10分鐘，每題暫以0.5分計算。</p>
 <div class="progress"><span id="exam-progress"></span></div>
 <div class="row"><span id="exam-counter">尚未開始</span><span id="exam-status" class="muted">請按開始測驗</span></div>
 <div id="exam-content" class="hidden"><span class="tag" id="exam-kind"></span><div class="question" id="exam-prompt"></div><input id="exam-answer" type="text" autocomplete="off" placeholder="輸入答案"><div class="row"><button class="action" id="exam-prev">上一題</button><button class="action" id="exam-next">下一題</button></div><div class="row"><button class="action primary" id="exam-submit">交卷計分</button></div></div>
 <div id="exam-result" aria-live="polite"></div><div id="exam-review" class="hidden"></div><button class="action primary" id="exam-start">開始 10 分鐘測驗</button>
 </section>
 <section id="practice" class="panel hidden">
-<div class="row"><div><span class="tag" id="mode-tag">字音練習</span><span class="tag">功能示範題</span></div><div class="muted" id="counter">第 1 題</div></div>
+<div class="row"><div><span class="tag" id="mode-tag">字音練習</span><span class="tag">參考練習題庫</span></div><div class="muted" id="counter">第 1 題</div></div>
 <div class="progress"><span id="progress"></span></div>
 <div class="muted" id="instruction">請輸入詞語的正確注音（可用空格分隔）。</div>
 <div class="question" id="prompt">參差</div>
@@ -54,7 +54,7 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <div id="feedback" aria-live="polite"></div>
 <div class="row hidden" id="next-row"><span class="muted" id="explain"></span><button class="action primary" id="next">下一題</button></div>
 </section>
-<section id="library" class="panel hidden"><h2>📚 題庫管理</h2><p class="muted">所有練習共用同一份題庫資料。正式歷屆題目必須完成來源與答案核對，才會標記為已驗證。</p><div class="grid"><article class="card"><div class="muted">目前題目總數</div><div class="metric" id="catalog-total">載入中</div></article><article class="card"><div class="muted">已驗證正式題</div><div class="metric" id="catalog-verified">—</div></article><article class="card"><div class="muted">功能示範題</div><div class="metric" id="catalog-demo">—</div></article></div><h3>題庫分類</h3><div id="catalog-breakdown" class="muted">正在讀取題庫資料…</div><p class="muted" id="catalog-updated"></p><p class="notice">目前示範題不會被誤認為歷屆正式題目。正式題目將依年度、競賽類型、組別、字音／字形及來源頁碼管理。</p></section>
+<section id="library" class="panel hidden"><h2>📚 題庫管理</h2><p class="muted">所有練習共用同一份題庫資料。正式歷屆題目必須完成來源與答案核對，才會標記為已驗證。</p><div class="grid"><article class="card"><div class="muted">目前題目總數</div><div class="metric" id="catalog-total">載入中</div></article><article class="card"><div class="muted">已核對可練習題</div><div class="metric" id="catalog-verified">—</div></article><article class="card"><div class="muted">功能示範題</div><div class="metric" id="catalog-demo">—</div></article></div><h3>題庫分類</h3><div id="catalog-breakdown" class="muted">正在讀取題庫資料…</div><p class="muted" id="catalog-updated"></p><p class="notice">目前示範題不會被誤認為歷屆正式題目。正式題目將依年度、競賽類型、組別、字音／字形及來源頁碼管理。</p></section>
 <section id="importer" class="panel hidden"><h2>📥 歷屆題庫匯入工具</h2><p class="muted">選擇符合題庫格式的 JSON 檔案，先檢查欄位、重複 ID 與查證狀態，再合併並下載新版題庫。下載後仍需將檔案更新到 GitHub，網站才會同步。</p><div class="notice"><strong>匯入格式</strong><br>JSON 最外層需包含 questions 陣列；每題需有 id、competition、year、group、type、prompt、answer、display、source_id、verification_status。正式題必須附年度與來源 ID。</div><p><input id="import-file" type="file" accept=".json,application/json"></p><div class="row"><button class="action primary" id="validate-import">檢查匯入檔</button><button class="action" id="download-catalog" disabled>下載合併後題庫</button></div><div id="import-report" aria-live="polite" class="muted">尚未選擇檔案。</div><div id="import-preview"></div></section>
 <section id="mistakes" class="panel hidden"><div class="row"><h2>⭐ 錯題本</h2><button class="action" id="clear-mistakes">清空錯題</button></div><div id="mistake-list" class="muted">目前還沒有錯題，繼續加油！</div></section>
 <section id="stats" class="panel hidden"><h2>📈 學習統計</h2><div class="grid"><div><div class="muted">累積作答</div><div class="metric" id="stat-attempts">0</div></div><div><div class="muted">答對題數</div><div class="metric" id="stat-correct">0</div></div><div><div class="muted">整體正確率</div><div class="metric" id="stat-rate">—</div></div></div><h3>分類表現</h3><div class="grid"><article class="card"><h3>🔊 字音</h3><div class="metric" id="stat-phonetic-rate">—</div><p class="muted" id="stat-phonetic-detail">尚無紀錄</p></article><article class="card"><h3>✍️ 字形</h3><div class="metric" id="stat-form-rate">—</div><p class="muted" id="stat-form-detail">尚無紀錄</p></article></div><h3>需要加強的題目</h3><div id="weak-list" class="muted">目前還沒有錯題。</div><p class="muted">紀錄保存在目前這台裝置的瀏覽器中；清除瀏覽器資料可能會一併清除紀錄。</p></section>
@@ -75,7 +75,7 @@ let mode="phonetic",index=0,locked=false,retryItem=null;
 let examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];
 let examAnswers=[],examIndex=0,examSeconds=600,examClock=null,examRunning=false;
 let questionCatalog=null;
-async function loadQuestionCatalog(){try{const response=await fetch("./data/questions/catalog.json");if(!response.ok)throw new Error("題庫讀取失敗");const data=await response.json();if(!Array.isArray(data.questions))throw new Error("題庫格式不正確");questionCatalog=data;bank={phonetic:data.questions.filter(q=>q.type==="phonetic"&&(q.verification_status==="verified"||q.verification_status==="demo")).map(q=>({...q,note:q.explanation||""})),form:data.questions.filter(q=>q.type==="form"&&(q.verification_status==="verified"||q.verification_status==="demo")).map(q=>({...q,note:q.explanation||""}))};examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];$("catalog-total").textContent=data.questions.length;$("catalog-verified").textContent=data.questions.filter(q=>q.verification_status==="verified").length;$("catalog-demo").textContent=data.questions.filter(q=>q.verification_status==="demo").length;const years=[...new Set(data.questions.filter(q=>q.year!==null).map(q=>q.year))].sort((a,b)=>a-b);$("catalog-breakdown").textContent="字音 "+bank.phonetic.length+" 題 · 字形 "+bank.form.length+" 題 · 年度資料 "+(years.length?years.map(y=>y+"年").join("、"):"尚無正式年度題目");$("catalog-updated").textContent="題庫更新日期："+(data.updated_at||"未提供");document.querySelectorAll(".tag").forEach(el=>{if(el.textContent==="功能示範題共 6 題")el.textContent="題庫共 "+data.questions.length+" 題"})}catch(error){$("catalog-total").textContent="載入失敗";$("catalog-breakdown").textContent="目前使用內建示範題。請確認網站已部署，且 data/questions/catalog.json 可正常讀取。";}}
+async function loadQuestionCatalog(){try{const response=await fetch("./data/questions/catalog.json");if(!response.ok)throw new Error("題庫讀取失敗");const data=await response.json();if(!Array.isArray(data.questions))throw new Error("題庫格式不正確");questionCatalog=data;bank={phonetic:data.questions.filter(q=>q.type==="phonetic"&&(q.verification_status==="verified"||q.verification_status==="demo")).map(q=>({...q,note:q.explanation||""})),form:data.questions.filter(q=>q.type==="form"&&(q.verification_status==="verified"||q.verification_status==="demo")).map(q=>({...q,note:q.explanation||""}))};examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];$("catalog-total").textContent=data.questions.length;$("catalog-verified").textContent=data.questions.filter(q=>q.verification_status==="verified"&&q.competition!=="reference_practice").length;$("catalog-demo").textContent=data.questions.filter(q=>q.verification_status==="demo").length;const refCount=data.questions.filter(q=>q.competition==="reference_practice").length;const formalCount=data.questions.filter(q=>q.year!==null&&q.competition!=="reference_practice").length;const years=[...new Set(data.questions.filter(q=>q.year!==null).map(q=>q.year))].sort((a,b)=>a-b);$("catalog-breakdown").textContent="字音 "+bank.phonetic.length+" 題 · 字形 "+bank.form.length+" 題 · 參考練習 "+refCount+" 題 · 歷屆正式題 "+formalCount+" 題 · 年度資料 "+(years.length?years.map(y=>y+"年").join("、"):"尚無正式年度題目");$("catalog-updated").textContent="題庫更新日期："+(data.updated_at||"未提供");document.querySelectorAll(".tag").forEach(el=>{if(el.textContent==="100題練習題")el.textContent="題庫共 "+data.questions.length+" 題"})}catch(error){$("catalog-total").textContent="載入失敗";$("catalog-breakdown").textContent="目前使用內建示範題。請確認網站已部署，且 data/questions/catalog.json 可正常讀取。";}}
 
 let pendingCatalog=null;
 function validateQuestion(q,i){
@@ -127,7 +127,7 @@ examAnswers[examIndex]=$("exam-answer").value;examRunning=false;clearInterval(ex
 let correct=0,unanswered=0;
 const details=examQuestions.map((q,i)=>{const user=examAnswers[i]||"",ok=normalize(user)===normalize(q.answer);if(ok)correct++;if(!user.trim())unanswered++;return {q,user,ok}});
 const score=correct*0.5;$("exam-content").classList.add("hidden");$("exam-start").textContent="再測驗一次";$("exam-start").classList.remove("hidden");
-$("exam-result").innerHTML='<div class="feedback good"><strong>'+(auto?"時間到，已自動交卷。":"測驗完成！")+'</strong><br>答對 '+correct+' / '+examQuestions.length+' 題<br>未作答 '+unanswered+' 題<br>示範得分：'+score.toFixed(1)+' 分（每題 0.5 分）</div><p class="muted">本次只有 6 題功能示範題，並非正式 200 題測驗。</p>';
+$("exam-result").innerHTML='<div class="feedback good"><strong>'+(auto?"時間到，已自動交卷。":"測驗完成！")+'</strong><br>答對 '+correct+' / '+examQuestions.length+' 題<br>未作答 '+unanswered+' 題<br>示範得分：'+score.toFixed(1)+' 分（每題 0.5 分）</div><p class="muted">本次使用目前題庫中的練習題，並非完整正式歷屆試題。</p>';
 $("exam-review").classList.remove("hidden");
 $("exam-review").innerHTML='<h3>逐題檢討</h3>'+details.map((d,i)=>'<article class="review-item '+(d.ok?"correct":"wrong")+'"><strong>'+(i+1)+'. '+d.q.kind+'｜'+safeText(d.q.prompt)+'</strong><p>你的答案：'+(d.user.trim()?safeText(d.user):"（未作答）")+'</p><p>正確答案：<strong>'+safeText(d.q.display)+'</strong></p><p class="muted">'+(d.ok?"答對":"答錯")+' · '+safeText(d.q.note)+'</p></article>').join("");
 $("exam-status").textContent="已交卷"}
