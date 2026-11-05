@@ -88,6 +88,46 @@
       "source_type": "official_competition_site",
       "status": "results_announced_question_pdf_not_confirmed",
       "notes": "目前可確認國語字音字形成績公告頁；未由此頁確認可下載國小組完整題本與答案，故不當作題庫來源。"
+    },
+    {
+      "id": "national-111-moe-archive",
+      "competition": "national",
+      "year": 111,
+      "title": "111 年全國語文競賽國小組字音字形試題（教育部成果專輯 PDF）",
+      "url": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
+      "source_type": "official_archive_pdf",
+      "status": "direct_pdf_found_needs_full_review",
+      "notes": "教育部網站搜尋索引可讀取部分題目文字；仍需下載 PDF 並逐頁核對完整題目與答案。"
+    },
+    {
+      "id": "national-110-answer-ntcu",
+      "competition": "national",
+      "year": 110,
+      "title": "110 年全國語文競賽國小組字音字形試題（答案）",
+      "url": "https://lle.ntcu.edu.tw/files/users/42/114-1%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E9%A1%8C%E5%BA%AB%28100-110%29.pdf",
+      "source_type": "school_archive_pdf",
+      "status": "direct_pdf_found_needs_full_review",
+      "notes": "國立臺中教育大學網站搜尋索引可辨識題目答案片段；需核對原始 PDF 年度與完整內容。"
+    },
+    {
+      "id": "national-114-answer-official",
+      "competition": "national",
+      "year": 114,
+      "title": "114 年全國語文競賽國小組字音字形答案公告",
+      "url": "https://language114.eduweb.tw/Module/Bulletin/Detail.php?ID=17",
+      "source_type": "official_answer_announcement",
+      "status": "official_announcement_confirmed_pdf_link_listed",
+      "notes": "官方公告於 2025-11-23 發布，列出國小組更正版答案卷；題目卷仍需另行取得。"
+    },
+    {
+      "id": "national-113-answer-misnamed-pdf",
+      "competition": "national",
+      "year": 113,
+      "title": "113 年全國語文競賽國小組字音字形解答（搜尋索引所列 PDF）",
+      "url": "https://www.nptups.ptc.edu.tw/wp-content/uploads/sites/49/2025/10/114%E9%AB%98%E5%B9%B4%E7%B4%9A%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E9%A1%8C%E7%9B%AE-%E9%A1%8C%E7%9B%AE.pdf",
+      "source_type": "school_archive_pdf",
+      "status": "needs_manual_pdf_identity_check",
+      "notes": "搜尋索引顯示 PDF 內文標題為 113 年全國賽國小組字音字形解答，但檔名含 114 高年級字音字形題目，且 OCR 有明顯錯字；不得直接匯入，需先檢查 PDF 原件。"
     }
   ]
 }
