@@ -262,6 +262,54 @@
       ],
       "status": "content_audit_required",
       "notes": "官方公告附件名稱為國小組更正版答案卷，但已讀取的PDF文字層前段出現111年題目標題，後段出現114年題目標題；必須逐頁核對，不可直接視為純114答案卷。"
+    },
+    {
+      "id": "national-111-xindian-ankeng",
+      "competition": "national",
+      "year": 111,
+      "group": "elementary",
+      "title": "新北市安坑國小：111國語-國小組.pdf",
+      "url": "https://www.takes.ntpc.edu.tw/p/406-1000-6215,r73.php",
+      "source_type": "school_archive_attachment",
+      "status": "attachment_link_confirmed_download_failed",
+      "attachment_title": "111國語-國小組.pdf",
+      "direct_attachment_url": "https://www.takes.ntpc.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MemN2Y0hSaFh6ZzFORFJmTWpVek9EQTFOVjh5TnpNd01DNXdaR1k9&fname=WW54RPOKRK44A1HHHCLKOKMO143025RLRKFGDCNPUTUXWSTSNKB4ST54DGOKJGWXZTPOUT00VS24MO201430UWKKIGRKB1HG21MPMLA5YSNKGHTWSSOKHHPO",
+      "notes": "學校頁附件標題已確認；點擊後回傳application/octet-stream，瀏覽器與下載工具未能取得檔案本體。年度與國小組需再檢視PDF內容確認。"
+    },
+    {
+      "id": "national-111-scribd-copy",
+      "competition": "national",
+      "year": 111,
+      "group": "elementary",
+      "title": "111全國語文競賽試題－字音字形（題目+解答）",
+      "url": "https://www.scribd.com/document/967278080/111%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD%E8%A9%A6%E9%A1%8C-%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2-%E9%A1%8C%E7%9B%AE-%E8%A7%A3%E7%AD%94",
+      "source_type": "third_party_document_mirror",
+      "status": "title_and_two_page_preview_confirmed_content_not_legible",
+      "notes": "搜尋索引與頁面標題均稱題目+解答、2頁；但預覽文字層大量亂碼，尚不能核對是否全國賽國小組原卷，亦不可當作正式答案。"
+    },
+    {
+      "id": "national-111-yuanshan-answer-index",
+      "competition": "national",
+      "year": 111,
+      "group": "elementary",
+      "title": "宜蘭縣員山國小歷屆題庫索引：111國語字音字形國小組答案",
+      "url": "https://www.yeses.ilc.edu.tw/2023/10/31/%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E5%9C%8B%E5%B0%8F%E7%B5%84%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E8%80%83%E5%8F%A4%E9%A1%8C100111/",
+      "source_type": "school_question_answer_index",
+      "status": "answer_attachment_title_confirmed_page_timeout",
+      "attachment_title": "111國語字音字形國小組答案.pdf",
+      "notes": "學校索引列出111年國小組答案PDF，但原始頁面逾時，尚未取得直接附件網址或檔案。"
+    },
+    {
+      "id": "national-111-taoyuan-datong-mirror",
+      "competition": "national",
+      "year": 111,
+      "group": "elementary",
+      "title": "桃園市大同國小：111全國語文競賽試題－字音字形（題目+解答）",
+      "url": "https://www.ttps.tyc.edu.tw/modules/tadnews/index.php?nsn=4004",
+      "source_type": "school_question_answer_index",
+      "status": "attachment_title_confirmed_page_404",
+      "attachment_title": "111全國語文競賽試題 - 字音字形(題目+解答).pdf",
+      "notes": "學校索引摘要列出111年全國賽題目+解答合併PDF，但頁面目前404；尚未取得檔案本體。"
     }
   ]
 }
