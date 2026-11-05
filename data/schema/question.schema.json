@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xuaner/question.schema.json",
+  "title": "璇兒字音字形題目",
+  "type": "object",
+  "required": ["id", "year", "competition", "group", "section", "item_no", "prompt", "source_url", "verification_status"],
+  "properties": {
+    "id": {"type": "string"},
+    "year": {"type": ["integer", "null"]},
+    "competition": {"enum": ["keelung", "national", "other_city", "school", "practice"]},
+    "group": {"type": "string", "default": "elementary"},
+    "section": {"enum": ["pronunciation", "character", "idiom"]},
+    "item_no": {"type": ["integer", "null"]},
+    "prompt": {"type": "string"},
+    "answer": {"type": ["string", "null"]},
+    "phonetic": {"type": ["string", "null"]},
+    "explanation": {"type": ["string", "null"]},
+    "source_url": {"type": "string", "format": "uri"},
+    "source_page": {"type": ["integer", "null"]},
+    "verification_status": {"enum": ["verified", "needs_review", "unverified"]},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "difficulty": {"enum": ["official_level", "basic", "advanced"]}
+  },
+  "additionalProperties": false
+}
