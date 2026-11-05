@@ -13,7 +13,7 @@ main{max-width:1000px;margin:22px auto;padding:0 15px 35px}.notice,.panel,.card{
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:15px 0}.card h2{margin:0 0 7px;font-size:19px}.card p{color:var(--muted);line-height:1.55}.metric{font-size:28px;font-weight:750}.muted{color:var(--muted)}.tag{display:inline-block;border-radius:99px;background:var(--lav);padding:4px 9px;font-size:12px;margin:2px}
 input[type=text]{width:100%;padding:13px;border:1px solid #d9cbd9;border-radius:12px;font-size:18px;margin:9px 0 12px;color:var(--ink)}button:disabled{opacity:.45;cursor:not-allowed}
 .question{font-size:clamp(24px,5vw,34px);font-weight:750;letter-spacing:2px;margin:18px 0}.feedback{padding:10px 12px;border-radius:12px;margin:10px 0}.good{background:#e8f5ee;color:var(--green)}.bad{background:#fff0f1;color:var(--red)}
-.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center;justify-content:space-between}.hidden{display:none!important}.progress{height:8px;background:#f0eaf1;border-radius:99px;overflow:hidden}.progress span{display:block;height:100%;background:var(--accent);width:0}
+.exam-question{padding:12px;border:1px solid var(--line);border-radius:12px;margin:8px 0}.exam-question.current{border-color:var(--accent);background:#fff8fc}.timer{font-size:25px;font-weight:800;font-variant-numeric:tabular-nums}.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center;justify-content:space-between}.hidden{display:none!important}.progress{height:8px;background:#f0eaf1;border-radius:99px;overflow:hidden}.progress span{display:block;height:100%;background:var(--accent);width:0}
 li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
 </style></head>
 <body>
@@ -21,11 +21,11 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <main>
 <div class="notice"><strong>練習版本 1.0｜基本功能雛形</strong><br>目前先完成練習流程、作答判斷、錯題本與學習紀錄。畫面中的少量示範題只用來測試功能，<strong>不是基隆市或全國賽歷屆正式題目</strong>；正式題庫會在來源與答案核對後逐批加入。</div>
 <nav class="nav" aria-label="功能選單">
-<button class="active" data-tab="home">首頁</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button>
+<button class="active" data-tab="home">首頁</button><button data-tab="exam">模擬比賽</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button>
 </nav>
 <section id="home">
 <div class="grid">
-<article class="card"><h2>🔊 字音練習</h2><p>看詞語，輸入正確注音。</p><button class="action primary" data-go="phonetic">開始練習</button></article>
+<article class="card"><h2>⏱️ 模擬比賽</h2><p>限時作答、交卷計分；目前為功能測試題。</p><button class="action primary" data-go="exam">進入測驗</button></article><article class="card"><h2>🔊 字音練習</h2><p>看詞語，輸入正確注音。</p><button class="action primary" data-go="phonetic">開始練習</button></article>
 <article class="card"><h2>✍️ 字形練習</h2><p>依提示輸入正確詞語。</p><button class="action primary" data-go="form">開始練習</button></article>
 <article class="card"><h2>⭐ 我的錯題本</h2><p>答錯的題目會自動收錄在這裡。</p><button class="action" data-go="mistakes">查看錯題</button></article>
 </div>
@@ -35,6 +35,14 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <div class="card"><div class="muted">目前正確率</div><div class="metric" id="home-rate">—</div></div>
 </div>
 <div class="panel"><h2>比賽規格參考</h2><span class="tag">字音 100 題</span><span class="tag">字形 100 題</span><span class="tag">作答 10 分鐘</span><span class="tag">每題 0.5 分</span><p class="muted">依基隆市 115 年競賽規格設定；正式模擬考與完整題庫將於後續版本加入。</p></div>
+</section>
+<section id="exam" class="panel hidden">
+<div class="row"><div><span class="tag">限時測驗</span><span class="tag">功能示範題共 6 題</span></div><div class="timer" id="exam-timer">10:00</div></div>
+<p class="muted">正式規格為 200 題、10 分鐘、每題 0.5 分。因正式題庫尚未完成，本測驗只用 6 題測試計時、作答與計分功能，成績不代表正式比賽表現。</p>
+<div class="progress"><span id="exam-progress"></span></div>
+<div class="row"><span id="exam-counter">尚未開始</span><span id="exam-status" class="muted">請按開始測驗</span></div>
+<div id="exam-content" class="hidden"><span class="tag" id="exam-kind"></span><div class="question" id="exam-prompt"></div><input id="exam-answer" type="text" autocomplete="off" placeholder="輸入答案"><div class="row"><button class="action" id="exam-prev">上一題</button><button class="action" id="exam-next">下一題</button></div><div class="row"><button class="action primary" id="exam-submit">交卷計分</button></div></div>
+<div id="exam-result" aria-live="polite"></div><button class="action primary" id="exam-start">開始 10 分鐘測驗</button>
 </section>
 <section id="practice" class="panel hidden">
 <div class="row"><div><span class="tag" id="mode-tag">字音練習</span><span class="tag">功能示範題</span></div><div class="muted" id="counter">第 1 題</div></div>
@@ -62,12 +70,19 @@ const bank={
   {id:"demo-f3",prompt:"請輸入正確成語：迫不及＿＿",answer:"待",display:"待",note:"正確成語為「迫不及待」。"}
  ]};
 let mode="phonetic",index=0,locked=false;
+const examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];
+let examAnswers=[],examIndex=0,examSeconds=600,examClock=null,examRunning=false;
+function showExamQuestion(){const q=examQuestions[examIndex];$("exam-kind").textContent=q.kind;$("exam-prompt").textContent=q.prompt;$("exam-answer").value=examAnswers[examIndex]||"";$("exam-counter").textContent="第 "+(examIndex+1)+" / "+examQuestions.length+" 題";$("exam-progress").style.width=((examIndex+1)/examQuestions.length*100)+"%";$("exam-prev").disabled=examIndex===0;$("exam-next").disabled=examIndex===examQuestions.length-1}
+function examMove(delta){examAnswers[examIndex]=$("exam-answer").value;examIndex=Math.max(0,Math.min(examQuestions.length-1,examIndex+delta));showExamQuestion()}
+function finishExam(auto=false){if(!examRunning)return;examAnswers[examIndex]=$("exam-answer").value;examRunning=false;clearInterval(examClock);let correct=0;examQuestions.forEach((q,i)=>{if(normalize(examAnswers[i]||"")===normalize(q.answer))correct++});const score=correct*0.5;$("exam-content").classList.add("hidden");$("exam-start").textContent="再測驗一次";$("exam-start").classList.remove("hidden");$("exam-result").innerHTML='<div class="feedback good"><strong>'+(auto?"時間到，已自動交卷。":"測驗完成！")+'</strong><br>答對 '+correct+' / '+examQuestions.length+' 題<br>示範得分：'+score.toFixed(1)+' 分（每題 0.5 分）</div><p class="muted">本次只有 6 題功能示範題，並非正式 200 題測驗。</p>';$("exam-status").textContent="已交卷"}
+function startExam(){clearInterval(examClock);examAnswers=Array(examQuestions.length).fill("");examIndex=0;examSeconds=600;examRunning=true;$("exam-result").innerHTML="";$("exam-content").classList.remove("hidden");$("exam-start").classList.add("hidden");$("exam-status").textContent="作答中";showExamQuestion();function tick(){const m=Math.floor(examSeconds/60),sec=examSeconds%60;$("exam-timer").textContent=String(m).padStart(2,"0")+":"+String(sec).padStart(2,"0");if(examSeconds<=0){finishExam(true);return}examSeconds--}tick();examClock=setInterval(tick,1000)}
+
 const $=id=>document.getElementById(id);
 const read=(key,def)=>{try{return JSON.parse(localStorage.getItem(key))??def}catch{return def}};
 let stats=read("xuaner-stats",{attempts:0,correct:0}),mistakes=read("xuaner-mistakes",[]);
 function save(){localStorage.setItem("xuaner-stats",JSON.stringify(stats));localStorage.setItem("xuaner-mistakes",JSON.stringify(mistakes));renderStats()}
 function renderStats(){const rate=stats.attempts?Math.round(stats.correct/stats.attempts*100)+"%":"—";$("home-attempts").textContent=$("stat-attempts").textContent=stats.attempts;$("home-correct").textContent=$("stat-correct").textContent=stats.correct;$("home-rate").textContent=$("stat-rate").textContent=rate}
-function tab(name){document.querySelectorAll("main>section").forEach(s=>s.classList.add("hidden"));$(name==="phonetic"||name==="form"?"practice":name).classList.remove("hidden");document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===name));if(name==="mistakes")renderMistakes();if(name==="stats")renderStats()}
+function tab(name){if(name!=="exam"&&examRunning){clearInterval(examClock);examRunning=false}document.querySelectorAll("main>section").forEach(s=>s.classList.add("hidden"));$(name==="phonetic"||name==="form"?"practice":name).classList.remove("hidden");document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===name));if(name==="exam"){}if(name==="mistakes")renderMistakes();if(name==="stats")renderStats()}
 function start(m){mode=m;index=0;locked=false;tab(m);loadQuestion()}
 function loadQuestion(){$("answer").classList.remove("hidden");$("check").classList.remove("hidden");$("skip").classList.remove("hidden");const q=bank[mode][index];$("mode-tag").textContent=mode==="phonetic"?"字音練習":"字形練習";$("instruction").textContent=mode==="phonetic"?"請輸入詞語的正確注音（可用空格分隔）。":"請依提示輸入缺少的正確字。";$("prompt").textContent=q.prompt;$("answer").value="";$("answer").disabled=false;$("check").disabled=false;$("feedback").innerHTML="";$("next-row").classList.add("hidden");$("counter").textContent="第 "+(index+1)+" / "+bank[mode].length+" 題";$("progress").style.width=(index/bank[mode].length*100)+"%";locked=false;$("answer").focus()}
 function normalize(s){return s.trim().replace(/[，,、。．\s]/g,"").replace(/（/g,"(").replace(/）/g,")")}
@@ -75,8 +90,8 @@ function check(){if(locked)return;const q=bank[mode][index],user=normalize($("an
 function next(){index++;if(index>=bank[mode].length){$("prompt").textContent="這組示範題完成！";$("instruction").textContent="你可以回到首頁，或再練習另一類題目。";$("answer").classList.add("hidden");$("check").classList.add("hidden");$("skip").classList.add("hidden");$("next-row").classList.add("hidden");$("progress").style.width="100%";return}loadQuestion()}
 function renderMistakes(){if(!mistakes.length){$("mistake-list").textContent="目前還沒有錯題，繼續加油！";return}$("mistake-list").innerHTML="<ol>"+mistakes.map(q=>"<li><strong>"+q.prompt+"</strong><br>正確答案："+q.display+"<br><span class='muted'>你的答案："+(q.userAnswer||"未作答")+" · "+q.modeLabel+"</span></li>").join("")+"</ol>"}
 document.querySelectorAll(".nav button").forEach(b=>b.addEventListener("click",()=>{const t=b.dataset.tab;if(t==="phonetic"||t==="form")start(t);else tab(t)}));
-document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>start(b.dataset.go)));
-$("check").addEventListener("click",check);$("next").addEventListener("click",next);$("skip").addEventListener("click",()=>{if(!locked){index++;if(index>=bank[mode].length){next()}else loadQuestion()}});
+document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>b.dataset.go==="exam"?tab("exam"):start(b.dataset.go)));
+$("exam-start").addEventListener("click",startExam);$("exam-prev").addEventListener("click",()=>examMove(-1));$("exam-next").addEventListener("click",()=>examMove(1));$("exam-submit").addEventListener("click",()=>{if(confirm("確定交卷並計算成績？"))finishExam(false)});$("exam-answer").addEventListener("input",()=>{examAnswers[examIndex]=$("exam-answer").value});$("check").addEventListener("click",check);$("next").addEventListener("click",next);$("skip").addEventListener("click",()=>{if(!locked){index++;if(index>=bank[mode].length){next()}else loadQuestion()}});
 $("answer").addEventListener("keydown",e=>{if(e.key==="Enter"){locked?next():check()}});
 $("clear-mistakes").addEventListener("click",()=>{if(confirm("確定清空錯題本？")){mistakes=[];save();renderMistakes()}});
 renderStats();
