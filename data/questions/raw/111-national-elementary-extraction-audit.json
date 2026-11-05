@@ -4,111 +4,60 @@
   "group": "elementary",
   "source_id": "national-111-moe-archive",
   "source_url": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
-  "extraction_pages": "381-383",
-  "status": "partial_raw_text_not_verified",
+  "extraction_pages": "成果專輯印刷頁381-383（PDF實際頁碼需再次核對）",
+  "status": "partial_text_layer_extracted_not_verified",
   "items": {
     "phonetic": {
-      "visible_question_numbers": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
+      "detected_number_groups": [
+        "1-10",
+        "26-35",
+        "51-60",
+        "76-85"
       ],
-      "note": "原PDF文字層可見字音題目與注音欄位，但本檔僅記錄頁面抽取狀況，未將OCR片段轉成正式題目，以免辨識錯字污染題庫。"
+      "count_visible_numbered_items": 40,
+      "note": "全文解析可讀出這四組題號與部分注音/詞語，但並未確認其是否涵蓋完整字音100題；不得自行補齊缺失題號。"
     },
     "character_form": {
-      "visible_question_numbers": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
+      "detected_page": "成果專輯382-383附近",
+      "visual_grid_numbering": "OCR視覺描述出現1-100編號與紅框字，但題目及答案欄文字辨識不可靠",
+      "text_layer_rows": [
+        "1-10",
+        "26-35",
+        "51-60",
+        "76-85"
       ],
-      "note": "字形區OCR含有疑似欄位錯置及錯字，需以PDF頁面影像人工核對後再建立題目與答案。"
+      "note": "文字層辨識有錯字、漏字及疑似跨頁混入其他語別內容，尚不能將辨識結果當作正式題目。"
     }
   },
   "quality_control": {
     "pdf_binary_downloaded": false,
+    "text_layer_partial": true,
     "full_100_phonetic_items_verified": false,
     "full_100_character_items_verified": false,
     "answers_verified": false,
     "approved_for_practice": false
   },
   "next_actions": [
-    "取得或檢視PDF原始頁面影像",
-    "逐格核對字音與字形題目順序",
-    "比對正式答案與教育部標準",
-    "完成100字音及100字形後再轉成正式question schema"
+    "取得同一年度可下載的學校鏡像題目/答案PDF",
+    "逐頁比對官方成果專輯與鏡像檔，確認版面及年度",
+    "核對完整100字音、100字形題目及答案",
+    "僅在核對完成後轉成正式question schema"
+  ],
+  "retrieval_attempts": [
+    {
+      "method": "web PDF full-text indexing",
+      "result": "success_partial",
+      "detail": "PDF全文索引可讀取印刷頁381-383附近文字"
+    },
+    {
+      "method": "direct binary download",
+      "result": "failed",
+      "detail": "官方PDF下載逾時"
+    },
+    {
+      "method": "PDF page screenshots",
+      "result": "failed",
+      "detail": "第381-383頁截圖請求逾時"
+    }
   ]
 }
