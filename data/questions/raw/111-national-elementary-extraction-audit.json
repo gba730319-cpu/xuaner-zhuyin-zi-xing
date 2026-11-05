@@ -51,13 +51,14 @@
     "character_form_question_numbering_1_to_100_located": false,
     "character_form_text_manually_corrected": false,
     "answers_verified": false,
-    "approved_for_practice": false
+    "approved_for_practice": false,
+    "answer_mirror_found": true
   },
   "next_actions": [
-    "以官方原頁影像或可信任題目/答案鏡像核對字音OCR文字與注音是否錯漏",
-    "釐清字形題1-100兩頁文字層與視覺層的對應，避免混入國中組資料",
-    "尋找111年國小組正式答案卷，逐題核對字音與字形",
-    "完成校訂後才匯入正式題庫"
+    "嘗試從安坑學校附件直接下載或找相同檔案的其他鏡像",
+    "取得員山國小111答案PDF的直連",
+    "檢查題目+解答合併檔是否與教育部111官方題本完全一致",
+    "完成答案逐題核對後，再整理字形題1-100"
   ],
   "retrieval_attempts": [
     {
@@ -102,5 +103,35 @@
     "printed_pages": "381-383",
     "text_lines": "13383-13435 (phonetic); 13466-13486 (character-form table excerpt)",
     "caution": "成果專輯明示錯漏字均不修正；本次逐字轉錄僅依PDF文字層，仍須與原頁影像/官方答案比對。"
+  },
+  "answer_source_search": {
+    "status": "answer_and_question_mirror_leads_found_not_verified",
+    "sources": [
+      {
+        "id": "national-111-xindian-ankeng",
+        "status": "attachment_link_confirmed_download_failed",
+        "attachment_title": "111國語-國小組.pdf",
+        "url": "https://www.takes.ntpc.edu.tw/p/406-1000-6215,r73.php"
+      },
+      {
+        "id": "national-111-scribd-copy",
+        "status": "title_and_two_page_preview_confirmed_content_not_legible",
+        "attachment_title": null,
+        "url": "https://www.scribd.com/document/967278080/111%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD%E8%A9%A6%E9%A1%8C-%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2-%E9%A1%8C%E7%9B%AE-%E8%A7%A3%E7%AD%94"
+      },
+      {
+        "id": "national-111-yuanshan-answer-index",
+        "status": "answer_attachment_title_confirmed_page_timeout",
+        "attachment_title": "111國語字音字形國小組答案.pdf",
+        "url": "https://www.yeses.ilc.edu.tw/2023/10/31/%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E5%9C%8B%E5%B0%8F%E7%B5%84%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E8%80%83%E5%8F%A4%E9%A1%8C100111/"
+      },
+      {
+        "id": "national-111-taoyuan-datong-mirror",
+        "status": "attachment_title_confirmed_page_404",
+        "attachment_title": "111全國語文競賽試題 - 字音字形(題目+解答).pdf",
+        "url": "https://www.ttps.tyc.edu.tw/modules/tadnews/index.php?nsn=4004"
+      }
+    ],
+    "conclusion": "目前找到三個學校索引/第三方鏡像線索，其中安坑有附件下載端點但取檔失敗，員山列有111答案PDF但頁面逾時，大同列有題目+解答合併檔但頁面404；Scribd預覽為2頁且OCR亂碼。尚無一份可讀取且已驗證的正式國小組答案檔。"
   }
 }
