@@ -128,10 +128,9 @@ function safeText(value){return String(value??"").replace(/[&<>"']/g,c=>({"&":"&
 function finishExam(auto=false){
 if(!examRunning)return;
 saveExamCanvas();examRunning=false;clearInterval(examClock);
-let correct=0,unanswered=0;
 const details=examQuestions.map((q,i)=>({q,image:examAnswers[i]||""}));
-const score=0;$("exam-content").classList.add("hidden");$("exam-start").textContent="再測驗一次";$("exam-start").classList.remove("hidden");
-$("exam-result").innerHTML='<div class="feedback good"><strong>'+(auto?"時間到，已自動交卷。":"測驗完成！")+'</strong><br>答對 '+correct+' / '+examQuestions.length+' 題<br>未作答 '+unanswered+' 題<br>示範得分：'+score.toFixed(1)+' 分（每題 0.5 分）</div><p class="muted">本次使用目前題庫中的練習題，並非完整正式歷屆試題。</p>';
+$("exam-content").classList.add("hidden");$("exam-start").textContent="再測驗一次";$("exam-start").classList.remove("hidden");
+$("exam-result").innerHTML='<div class="feedback good"><strong>'+(auto?"時間到，已自動交卷。":"測驗完成！")+'</strong><br>每題手寫答案已保留。請在下方逐題比對標準答案；目前尚未加入手寫辨識，因此不會自動判定對錯或計算分數。</div><p class="muted">本次使用目前題庫中的練習題，並非完整正式歷屆試題。</p>';
 $("exam-review").classList.remove("hidden");
 $("exam-review").innerHTML='<h3>逐題檢討</h3>'+details.map((d,i)=>'<article class="review-item"><strong>'+(i+1)+'. '+d.q.kind+'｜'+safeText(d.q.prompt)+'</strong>'+(d.image?'<img alt="第'+(i+1)+'題手寫答案" src="'+d.image+'" style="display:block;width:100%;max-width:520px;height:150px;object-fit:contain;border:1px solid #eadfe9;border-radius:12px;background:white;margin:8px 0">':'<p class="muted">本題未作答</p>')+'<p>正確答案：<strong>'+safeText(d.q.display)+'</strong></p><p class="muted">'+safeText(d.q.note)+'</p></article>').join("");
 $("exam-status").textContent="已交卷"}
