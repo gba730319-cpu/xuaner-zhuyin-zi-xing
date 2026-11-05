@@ -8,7 +8,7 @@
   "document_title": "中華民國一一四年全國語文競賽 國小組 字音字形試題",
   "document_type": "question_sheet_not_answer_key",
   "pages": 2,
-  "extraction_status": "pdf_text_layer_available_raw_extraction_audited",
+  "extraction_status": "official_pdf_visual_review_complete_item_transcription_not_started",
   "sections": [
     {
       "page": 1,
@@ -40,13 +40,19 @@
     "ocr_or_text_layer_errors_present": true,
     "question_text_manually_corrected": false,
     "official_answers_verified": false,
-    "approved_for_practice": false
+    "approved_for_practice": false,
+    "visual_page_images_reviewed": true,
+    "question_number_to_column_order_confirmed": true,
+    "first_page_phonetic_answer_symbols_visually_present": true,
+    "second_page_character_form_answer_characters_visually_present": true,
+    "question_prompt_and_answer_pairing_manually_transcribed": false
   },
   "extraction_notes": [
     "官方公告頁的附件標題為「國語字音字形答案卷-國小組-更正版.pdf」，但實際PDF內頁標題為「中華民國一一四年全國語文競賽 國小組 字音字形試題」。",
     "第1頁為甲、字音部分；第2頁為乙、字形部分，各有100題。",
     "PDF文字層可擷取題號與題目材料，但部分字元有OCR/編碼錯誤，例如特殊字元被轉成㈿、㆞等，必須對照頁面圖像逐字校正。",
     "本檔沒有標準答案；不得以猜測方式填入答案，也不可將此檔誤標為答案卷。",
-    "目前只完成文件身分、頁數、年度、組別及題目區段稽核，尚未逐題轉錄、校訂或答案驗證。"
+    "目前只完成文件身分、頁數、年度、組別及題目區段稽核，尚未逐題轉錄、校訂或答案驗證。",
+    "2026-11-05：已重新開啟官方PDF兩頁影像，確認每頁均以25題為一列，題號由左至右遞減（25→1、50→26、75→51、100→76）；題號1位於每列最右側。第1頁每題方格內可見注音符號，第2頁每題方格內可見國字答案。影像已可用於逐題配對，但尚未逐題人工轉錄，不能匯入練習。"
   ]
 }
