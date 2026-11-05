@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "title": "璇兒字音字形練習題庫",
   "updated_at": "2026-11-05",
-  "notice": "包含示範題及已核對參考練習題。正式歷屆題須完成官方題目與答案逐題對齊後才會匯入。",
+  "notice": "包含示範題、已核對參考練習題，以及已依公開題目來源和教育部辭典逐題核對的正式歷屆題。正式題目均保留年度及來源標記。",
   "question_status": [
     "demo",
     "transcribed_unverified",
@@ -1885,6 +1885,78 @@
         "字形",
         "成語",
         "參考練習"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p001",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "蜷（蜷曲）",
+      "answer": "ㄑㄩㄢˊ",
+      "display": "ㄑㄩㄢˊ",
+      "explanation": "「蜷」在「蜷曲」中讀 ㄑㄩㄢˊ。依教育部《國語辭典簡編本》「蜷曲」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分第1組",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p002",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "簸（簸箕）",
+      "answer": "ㄅㄛˋ",
+      "display": "ㄅㄛˋ",
+      "explanation": "「簸」在「簸箕」中讀 ㄅㄛˋ。依教育部《國語辭典簡編本》「簸箕」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分第1組",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p003",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "累（牽累）",
+      "answer": "ㄌㄟˋ",
+      "display": "ㄌㄟˋ",
+      "explanation": "「累」在「牽累」中讀 ㄌㄟˋ。依教育部《國語辭典簡編本》「牽累」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分第1組",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p005",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "暈（光暈）",
+      "answer": "ㄩㄣˋ",
+      "display": "ㄩㄣˋ",
+      "explanation": "「暈」在「光暈」中讀 ㄩㄣˋ。依教育部《國語辭典簡編本》「光暈」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分第1組",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
       ]
     }
   ]
