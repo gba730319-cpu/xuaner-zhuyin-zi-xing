@@ -34,5 +34,28 @@
   ],
   "last_checked": "2026-11-05",
   "import_status": "No questions imported from these PDFs yet; this manifest tracks source retrieval only.",
-  "import_strategy": "優先直接解析解答PDF；若解答PDF本身同時包含完整題目與標準答案，直接由同一份PDF建立題庫，不再要求另找題目PDF配對。只有答案PDF確實缺少題目內容時，才補用題目PDF。"
+  "import_strategy": "優先直接解析解答PDF；若解答PDF本身同時包含完整題目與標準答案，直接由同一份PDF建立題庫，不再要求另找題目PDF配對。只有答案PDF確實缺少題目內容時，才補用題目PDF。",
+  "extraction_notes": [
+    {
+      "file": "103小生組全國賽解答.pdf",
+      "web_text_ref": "turn881874view0",
+      "extracted_lines": 617,
+      "confirmed_sections": [
+        "字音部分",
+        "字形部分"
+      ],
+      "evidence": "PDF全文可讀，包含題號1-100、指定字及對應詞語/題目文字；可直接由解答PDF作為題目與答案的主要整理來源。",
+      "next": "將原始PDF逐題結構化；注音需保留PDF答案內容，不可只用詞語推猜。"
+    },
+    {
+      "file": "112國語字音字形國小組答案.pdf",
+      "web_text_ref": "turn540762search12",
+      "extracted_lines": null,
+      "confirmed_sections": [
+        "字形部分至少包含題目詞語及答案字"
+      ],
+      "evidence": "搜尋索引已抽取出部分題號、詞語及答案字。",
+      "next": "取得完整PDF文字後結構化。"
+    }
+  ]
 }
