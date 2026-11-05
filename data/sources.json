@@ -391,6 +391,17 @@
       "source_type": "official_dictionary_reference",
       "status": "reference_practice_source",
       "notes": "本組為依教育部國語辭典及標準字形概念整理的基礎練習題，不冒充任何年度全國賽或基隆市正式歷屆試題。字音依常用標準讀音整理；字形以常用標準字形與成語用字整理。"
+    },
+    {
+      "id": "user-provided-national-114-elementary",
+      "competition": "national",
+      "year": 114,
+      "group": "elementary",
+      "title": "114學年度國小組甲卷字音、乙卷字形100題對照表（使用者提供轉錄）",
+      "url": "",
+      "source_type": "user_supplied_transcription",
+      "status": "transcribed_unverified",
+      "notes": "本次依使用者於2026-11-05提供的文字資料建立200筆題目。字音100題、字形100題；保留原題序與所提供答案。字形注音保存在 phonetic 欄位。部分題幹疑似OCR或轉錄異常，未擅自修正；原始PDF逐題核對前不得標記 verified。"
     }
   ]
 }
