@@ -1,0 +1,56 @@
+{
+  "project": "璇兒字音字形比賽練習",
+  "last_reviewed": "2026-11-05",
+  "sources": [
+    {
+      "id": "keelung-115-plan",
+      "competition": "keelung",
+      "year": 115,
+      "title": "基隆市 115 年語文競賽實施計畫與手冊",
+      "url": "https://www.klcg.gov.tw/tw/education/3651-318513.html",
+      "source_type": "official_announcement",
+      "status": "reference_only",
+      "notes": "用於確認基隆市競賽規格；不是歷屆題目檔。"
+    },
+    {
+      "id": "keelung-official-site",
+      "competition": "keelung",
+      "year": null,
+      "title": "基隆市語文競賽官方網站",
+      "url": "https://langcontest.kl.edu.tw/home/viewnews/119",
+      "source_type": "official_site",
+      "status": "to_review",
+      "notes": "持續查找基隆市正式字音字形題本與答案。"
+    },
+    {
+      "id": "national-114-answer",
+      "competition": "national",
+      "year": 114,
+      "title": "114 年全國語文競賽國小組字音字形答案卷",
+      "url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+      "source_type": "answer_pdf",
+      "status": "needs_reverification",
+      "notes": "曾檢視 PDF 頁面；匯入前仍須重新核對年度、題目及答案。"
+    },
+    {
+      "id": "yilan-100-113",
+      "competition": "national",
+      "year_range": [100, 113],
+      "title": "宜蘭縣元山國小全國語文競賽國小組歷屆題目整理",
+      "url": "https://www.yeses.ilc.edu.tw/2023/10/31/%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E5%9C%8B%E5%B0%8F%E7%B5%84%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E8%80%83%E5%8F%A4%E9%A1%8C100111/",
+      "source_type": "question_and_answer_index",
+      "status": "to_download_and_verify",
+      "notes": "第三方學校整理索引，需逐份確認檔案與年份。"
+    },
+    {
+      "id": "minxiong-97-112",
+      "competition": "national",
+      "year_range": [97, 112],
+      "title": "民雄國小歷屆字音字形題目與答案整理",
+      "url": "https://www.mhps.cyc.edu.tw/modules/tadnews/index.php?nsn=6030",
+      "source_type": "question_and_answer_index",
+      "status": "to_download_and_verify",
+      "notes": "第三方學校整理索引，需逐份確認檔案與年份。"
+    }
+  ]
+}
