@@ -338,5 +338,14 @@
   ],
   "download_status": "not_downloaded",
   "extraction_status": "not_started",
-  "blocker": "原始公告頁可確認附件名稱，但目前工具未取得附件 PDF 二進位檔；不可把附件存在標記成已下載。"
+  "blocker": "原始公告頁可確認附件名稱，但目前工具未取得附件 PDF 二進位檔；不可把附件存在標記成已下載。",
+  "acquisition_attempts": [
+    {
+      "source_id": "ankeng-100-112-index",
+      "source_url": "https://www.takes.ntpc.edu.tw/p/406-1000-6215%2Cr73.php",
+      "method": "open source page and click individual PDF attachment links",
+      "result": "attachment links resolved; binary response unsupported by current retrieval tool",
+      "downloaded": false
+    }
+  ]
 }
