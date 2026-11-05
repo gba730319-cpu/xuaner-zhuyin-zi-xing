@@ -860,6 +860,386 @@
         "成語",
         "參考練習"
       ]
+    },
+    {
+      "id": "ref-p-021",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "差強人意",
+      "answer": "ㄔㄚ ㄑㄧㄤˊ ㄖㄣˊ ㄧˋ",
+      "display": "ㄔㄚ ㄑㄧㄤˊ ㄖㄣˊ ㄧˋ",
+      "explanation": "「差強人意」的「差」讀ㄔㄚ，意為尚能振奮人心。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-022",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "參差不齊",
+      "answer": "ㄘㄣ ㄘ ㄅㄨˋ ㄑㄧˊ",
+      "display": "ㄘㄣ ㄘ ㄅㄨˋ ㄑㄧˊ",
+      "explanation": "「參差」讀ㄘㄣ ㄘ，形容長短、高低不齊。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-023",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "出差",
+      "answer": "ㄔㄨ ㄔㄞ",
+      "display": "ㄔㄨ ㄔㄞ",
+      "explanation": "「出差」的「差」讀ㄔㄞ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-024",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "差遣",
+      "answer": "ㄔㄞ ㄑㄧㄢˇ",
+      "display": "ㄔㄞ ㄑㄧㄢˇ",
+      "explanation": "「差遣」的「差」讀ㄔㄞ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-025",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "差別",
+      "answer": "ㄔㄚ ㄅㄧㄝˊ",
+      "display": "ㄔㄚ ㄅㄧㄝˊ",
+      "explanation": "「差別」的「差」讀ㄔㄚ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-026",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "累積",
+      "answer": "ㄌㄟˇ ㄐㄧ",
+      "display": "ㄌㄟˇ ㄐㄧ",
+      "explanation": "「累積」的「累」讀ㄌㄟˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-027",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "勞累",
+      "answer": "ㄌㄠˊ ㄌㄟˋ",
+      "display": "ㄌㄠˊ ㄌㄟˋ",
+      "explanation": "「勞累」的「累」讀ㄌㄟˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-028",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "連累",
+      "answer": "ㄌㄧㄢˊ ㄌㄟˇ",
+      "display": "ㄌㄧㄢˊ ㄌㄟˇ",
+      "explanation": "「連累」的「累」讀ㄌㄟˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-029",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "銀行",
+      "answer": "ㄧㄣˊ ㄏㄤˊ",
+      "display": "ㄧㄣˊ ㄏㄤˊ",
+      "explanation": "「銀行」的「行」讀ㄏㄤˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-030",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "行走",
+      "answer": "ㄒㄧㄥˊ ㄗㄡˇ",
+      "display": "ㄒㄧㄥˊ ㄗㄡˇ",
+      "explanation": "「行走」的「行」讀ㄒㄧㄥˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-021",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：膾＿人口",
+      "answer": "炙",
+      "display": "炙",
+      "explanation": "正確成語是「膾炙人口」，形容詩文或事物受到人們稱讚、傳誦。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-022",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：趨之若＿",
+      "answer": "鶩",
+      "display": "鶩",
+      "explanation": "正確成語是「趨之若鶩」，比喻許多人爭相追逐。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-023",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：醍＿灌頂",
+      "answer": "醐",
+      "display": "醐",
+      "explanation": "正確成語是「醍醐灌頂」，比喻使人得到啟發。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-024",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：風聲鶴＿",
+      "answer": "唳",
+      "display": "唳",
+      "explanation": "正確成語是「風聲鶴唳」，形容驚慌疑懼。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-025",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：沸沸＿揚",
+      "answer": "揚",
+      "display": "揚",
+      "explanation": "正確詞語是「沸沸揚揚」，形容議論紛紛。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-026",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：鞭辟入＿",
+      "answer": "裡",
+      "display": "裡",
+      "explanation": "正確成語是「鞭辟入裡」，形容分析深刻透徹。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-027",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：鳩占鵲＿",
+      "answer": "巢",
+      "display": "巢",
+      "explanation": "正確成語是「鳩占鵲巢」，比喻強占他人的住處或位置。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-028",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：既往不＿",
+      "answer": "咎",
+      "display": "咎",
+      "explanation": "正確成語是「既往不咎」，指過去的事不再追究。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-029",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：按圖索＿",
+      "answer": "驥",
+      "display": "驥",
+      "explanation": "正確成語是「按圖索驥」，比喻依照線索尋找。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-030",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：草＿人命",
+      "answer": "菅",
+      "display": "菅",
+      "explanation": "正確成語是「草菅人命」，形容輕視人命。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
     }
   ]
 }
