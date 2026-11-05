@@ -1976,6 +1976,204 @@
         "110年全國語文競賽",
         "教育部辭典核對"
       ]
+    },
+    {
+      "id": "national-110-elementary-p006",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "閒散",
+      "answer": "ㄒㄧㄢˊ ㄙㄢˇ",
+      "display": "ㄒㄧㄢˊ ㄙㄢˇ",
+      "explanation": "依教育部《國語辭典簡編本》「閒散」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p007",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "腋下",
+      "answer": "ㄧㄝˋ ㄒㄧㄚˋ",
+      "display": "ㄧㄝˋ ㄒㄧㄚˋ",
+      "explanation": "依教育部《國語辭典簡編本》「腋」詞條例詞「腋下」核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p008",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "勒索",
+      "answer": "ㄌㄜˋ ㄙㄨㄛˇ",
+      "display": "ㄌㄜˋ ㄙㄨㄛˇ",
+      "explanation": "依教育部《國語辭典簡編本》「勒索」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p009",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "佻巧",
+      "answer": "ㄊㄧㄠ ㄑㄧㄠˇ",
+      "display": "ㄊㄧㄠ ㄑㄧㄠˇ",
+      "explanation": "依教育部《重編國語辭典修訂本》「佻巧」詞條核對；此詞條簡編本未檢得，故特別標註來源。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p012",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "丑角",
+      "answer": "ㄔㄡˇ ㄐㄩㄝˊ",
+      "display": "ㄔㄡˇ ㄐㄩㄝˊ",
+      "explanation": "依教育部《國語辭典簡編本》「丑角」詞條，採正式讀音，非語音變讀。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p013",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "蕹菜",
+      "answer": "ㄩㄥ ㄘㄞˋ",
+      "display": "ㄩㄥ ㄘㄞˋ",
+      "explanation": "依教育部《重編國語辭典修訂本》「蕹」詞條及「蕹菜」用例核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p014",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "廢弛",
+      "answer": "ㄈㄟˋ ㄔˊ",
+      "display": "ㄈㄟˋ ㄔˊ",
+      "explanation": "依教育部《國語辭典簡編本》「廢弛」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p015",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "踏勘",
+      "answer": "ㄊㄚˋ ㄎㄢ",
+      "display": "ㄊㄚˋ ㄎㄢ",
+      "explanation": "依教育部《國語辭典簡編本》「踏勘」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p016",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "嘮叨",
+      "answer": "ㄌㄠˊ ㄉㄠ",
+      "display": "ㄌㄠˊ ㄉㄠ",
+      "explanation": "依教育部《國語辭典簡編本》「嘮叨」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p019",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "嘀咕",
+      "answer": "ㄉㄧˊ ㄍㄨ",
+      "display": "ㄉㄧˊ ㄍㄨ",
+      "explanation": "依教育部《國語辭典簡編本》「嘀咕」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
+    },
+    {
+      "id": "national-110-elementary-p021",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "嚷嚷",
+      "answer": "ㄖㄤˇ ㄖㄤˇ",
+      "display": "ㄖㄤˇ ㄖㄤˇ",
+      "explanation": "依教育部《國語辭典簡編本》「嚷嚷」詞條核對；保留辭典標示的變讀資訊於說明。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
     }
   ]
 }
