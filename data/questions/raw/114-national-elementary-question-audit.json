@@ -1,0 +1,52 @@
+{
+  "audit_id": "national-114-elementary-question-sheet",
+  "competition": "national",
+  "year": 114,
+  "group": "elementary",
+  "source_id": "national-114-question-sheet",
+  "source_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+  "document_title": "中華民國一一四年全國語文競賽 國小組 字音字形試題",
+  "document_type": "question_sheet_not_answer_key",
+  "pages": 2,
+  "extraction_status": "pdf_text_layer_available_raw_extraction_audited",
+  "sections": [
+    {
+      "page": 1,
+      "section": "phonetic",
+      "question_count": 100,
+      "question_numbering": "1-100",
+      "raw_text_extraction_available": true,
+      "manual_transcription_verified": false
+    },
+    {
+      "page": 2,
+      "section": "form",
+      "question_count": 100,
+      "question_numbering": "1-100",
+      "raw_text_extraction_available": true,
+      "manual_transcription_verified": false
+    }
+  ],
+  "answer_status": "not_included_in_this_pdf",
+  "quality_control": {
+    "official_announcement_page_confirmed": true,
+    "pdf_opened_and_page_count_confirmed": true,
+    "internal_title_confirmed": true,
+    "year_confirmed": true,
+    "elementary_group_confirmed": true,
+    "phonetic_and_form_sections_confirmed": true,
+    "all_200_question_positions_confirmed": true,
+    "raw_text_layer_available": true,
+    "ocr_or_text_layer_errors_present": true,
+    "question_text_manually_corrected": false,
+    "official_answers_verified": false,
+    "approved_for_practice": false
+  },
+  "extraction_notes": [
+    "官方公告頁的附件標題為「國語字音字形答案卷-國小組-更正版.pdf」，但實際PDF內頁標題為「中華民國一一四年全國語文競賽 國小組 字音字形試題」。",
+    "第1頁為甲、字音部分；第2頁為乙、字形部分，各有100題。",
+    "PDF文字層可擷取題號與題目材料，但部分字元有OCR/編碼錯誤，例如特殊字元被轉成㈿、㆞等，必須對照頁面圖像逐字校正。",
+    "本檔沒有標準答案；不得以猜測方式填入答案，也不可將此檔誤標為答案卷。",
+    "目前只完成文件身分、頁數、年度、組別及題目區段稽核，尚未逐題轉錄、校訂或答案驗證。"
+  ]
+}
