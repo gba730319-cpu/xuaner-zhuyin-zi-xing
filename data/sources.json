@@ -122,15 +122,15 @@
       "title": "114 年全國語文競賽國小組字音字形答案公告",
       "url": "https://language114.eduweb.tw/Module/Bulletin/Detail.php?ID=17",
       "source_type": "official_answer_announcement",
-      "status": "official_question_sheet_extracted_answer_key_not_included",
-      "notes": "已逐頁檢視官方附件：實際為114年全國賽國小組字音字形試題卷，2頁，字音與字形各100題；PDF文字層可擷取，但含OCR字元錯誤。不得將此檔當成答案卷。題目逐項校訂及答案核驗尚未完成。",
+      "status": "mixed_year_attachment_page1_111_phonetic_page2_114_form",
+      "notes": "重新核對PDF全文後發現附件混有不同年度：第1頁內頁標題為111年全國賽國小組字音；第2頁內頁標題為114年全國賽國小組字形。附件含答案欄，但不能當作114年完整題本；逐題題幹與答案配對仍待核驗。",
       "pdf_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
       "document_identity": {
         "verified_title": "中華民國一一四年全國語文競賽 國小組 字音字形試題",
         "page_count": 2,
-        "page_0": "甲、字音部分；題號1-100",
-        "page_1": "乙、字形部分；題號1-100",
-        "answer_key_included": false,
+        "page_0": "111年字音部分（非114年）",
+        "page_1": "114年字形部分",
+        "answer_key_included": "answer entries present, but mixed-year and pairing requires verification",
         "note": "雖然官方公告附件名稱含「答案卷」，實際PDF內頁標題為「試題」，是待作答題本，不是答案卷。"
       }
     },
@@ -268,8 +268,8 @@
         111,
         114
       ],
-      "status": "content_audit_required",
-      "notes": "官方公告附件名稱為國小組更正版答案卷，但已讀取的PDF文字層前段出現111年題目標題，後段出現114年題目標題；必須逐頁核對，不可直接視為純114答案卷。"
+      "status": "mixed_year_pages_detected_111_phonetic_114_form",
+      "notes": "重新核對全文：PDF第1頁內頁標題為111年全國賽國小組字音；第2頁為114年全國賽國小組字形。不得視為114年完整題本。"
     },
     {
       "id": "national-111-xindian-ankeng",
