@@ -122,9 +122,17 @@
       "title": "114 年全國語文競賽國小組字音字形答案公告",
       "url": "https://language114.eduweb.tw/Module/Bulletin/Detail.php?ID=17",
       "source_type": "official_answer_announcement",
-      "status": "official_pdf_opened_content_reviewed_not_answer_key",
-      "notes": "官方公告頁標示附件名稱為「國語字音字形答案卷-國小組-更正版.pdf」，但實際 PDF 內頁標題為「國小組字音字形試題」，內容呈現待填注音與字形的試題材料，不能視為已取得標準答案。需另外尋找正式答案資料或人工核對。",
-      "pdf_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835"
+      "status": "official_question_sheet_extracted_answer_key_not_included",
+      "notes": "已逐頁檢視官方附件：實際為114年全國賽國小組字音字形試題卷，2頁，字音與字形各100題；PDF文字層可擷取，但含OCR字元錯誤。不得將此檔當成答案卷。題目逐項校訂及答案核驗尚未完成。",
+      "pdf_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+      "document_identity": {
+        "verified_title": "中華民國一一四年全國語文競賽 國小組 字音字形試題",
+        "page_count": 2,
+        "page_0": "甲、字音部分；題號1-100",
+        "page_1": "乙、字形部分；題號1-100",
+        "answer_key_included": false,
+        "note": "雖然官方公告附件名稱含「答案卷」，實際PDF內頁標題為「試題」，是待作答題本，不是答案卷。"
+      }
     },
     {
       "id": "national-113-answer-misnamed-pdf",
@@ -332,6 +340,25 @@
       "source_type": "school_archive_pdf_identity_mismatch",
       "status": "pdf_search_index_confirms_111_question_paper_not_answer_key",
       "notes": "員山國小頁面列出「111國語字音字形國小組答案.pdf」，但搜尋引擎索引到的直連檔名為112國語字音字形國小組答案.pdf，內文標題卻是「中華民國一一年全國語文競賽國小組字音字形試題」，目前可確認是111年題目內容，不是答案卷；不得當作標準答案匯入。"
+    },
+    {
+      "id": "national-114-question-sheet",
+      "competition": "national",
+      "year": 114,
+      "group": "elementary",
+      "title": "114年全國語文競賽國小組字音字形試題卷（教育部官方公告附件）",
+      "url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+      "source_type": "official_question_pdf",
+      "status": "pdf_text_extracted_unverified",
+      "page_count": 2,
+      "extraction": {
+        "page_0": "phonetic_section_question_numbers_1_to_100",
+        "page_1": "character_form_section_question_numbers_1_to_100",
+        "text_layer_available": true,
+        "manual_correction_complete": false,
+        "answer_key_available": false
+      },
+      "notes": "教育部114年全國語文競賽官方公告附件。公告檔名雖稱答案卷，實際PDF內頁標題為國小組字音字形試題；可作為題目原始來源，不可作為答案來源。"
     }
   ]
 }
