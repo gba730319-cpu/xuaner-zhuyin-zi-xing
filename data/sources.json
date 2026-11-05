@@ -35,7 +35,10 @@
     {
       "id": "yilan-100-113",
       "competition": "national",
-      "year_range": [100, 113],
+      "year_range": [
+        100,
+        113
+      ],
       "title": "宜蘭縣元山國小全國語文競賽國小組歷屆題目整理",
       "url": "https://www.yeses.ilc.edu.tw/2023/10/31/%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E5%9C%8B%E5%B0%8F%E7%B5%84%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E8%80%83%E5%8F%A4%E9%A1%8C100111/",
       "source_type": "question_and_answer_index",
@@ -45,12 +48,46 @@
     {
       "id": "minxiong-97-112",
       "competition": "national",
-      "year_range": [97, 112],
+      "year_range": [
+        97,
+        112
+      ],
       "title": "民雄國小歷屆字音字形題目與答案整理",
       "url": "https://www.mhps.cyc.edu.tw/modules/tadnews/index.php?nsn=6030",
       "source_type": "question_and_answer_index",
       "status": "to_download_and_verify",
       "notes": "第三方學校整理索引，需逐份確認檔案與年份。"
+    },
+    {
+      "id": "xikou-97-114-index",
+      "competition": "national",
+      "year_range": [
+        97,
+        114
+      ],
+      "title": "新北市溪口國小 115 學年度字音字形參考題庫（列出全國賽歷屆附件）",
+      "url": "https://www.wkes.ntpc.edu.tw/p/406-1000-9266%2Cr88.php",
+      "source_type": "question_and_answer_index",
+      "status": "listed_not_downloaded",
+      "listed_files": [
+        "97-112國小組題目.pdf",
+        "97-112國小組解答.pdf",
+        "113國語字音字形-國小組(解答).pdf",
+        "113國語字音字形-國小組(題目).pdf",
+        "114國語字音字形-國小組(答案).pdf",
+        "114年國語字音字形國小組_題目卷.pdf"
+      ],
+      "notes": "頁面於 2026-11-04 發布、2026-11-05 更新；搜尋索引可確認附件名稱，但目前尚未取得附件直連與 PDF 本體，不能視為已下載或匯入。頁面提醒正式比賽出題範圍不限於該題庫。"
+    },
+    {
+      "id": "keelung-115-contest-site",
+      "competition": "keelung",
+      "year": 115,
+      "title": "基隆市 115 年度語文競賽官方網站公告",
+      "url": "https://langcontest.kl.edu.tw/home/viewnews/119",
+      "source_type": "official_competition_site",
+      "status": "results_announced_question_pdf_not_confirmed",
+      "notes": "目前可確認國語字音字形成績公告頁；未由此頁確認可下載國小組完整題本與答案，故不當作題庫來源。"
     }
   ]
 }
