@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "title": "璇兒字音字形練習題庫",
   "updated_at": "2026-11-05",
-  "notice": "包含示範題、已核對參考練習題，以及已依公開題目來源和教育部辭典逐題核對的正式歷屆題。正式題目均保留年度及來源標記。",
+  "notice": "歷屆正式題目依員山國小收錄之競賽答案PDF整理；年度依PDF內文標示，檔名年份差異不作排除。",
   "question_status": [
     "demo",
     "transcribed_unverified",
@@ -2205,6 +2205,1006 @@
         "教育部辭典核對",
         "官方來源待重新配對",
         "待官方答案逐題配對"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f051",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "魚＿而入",
+      "answer": "貫",
+      "display": "貫",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第51題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f052",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿睨群雄",
+      "answer": "睥",
+      "display": "睥",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第52題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f053",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿園子弟",
+      "answer": "梨",
+      "display": "梨",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第53題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f054",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "訥＿寡言",
+      "answer": "澀",
+      "display": "澀",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第54題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f055",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "文＿武略",
+      "answer": "韜",
+      "display": "韜",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第55題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f056",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "聲嘶力＿",
+      "answer": "竭",
+      "display": "竭",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第56題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f057",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "士氣如＿",
+      "answer": "虹",
+      "display": "虹",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第57題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f058",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "轉寰空間",
+      "answer": "圜",
+      "display": "圜",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第58題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f059",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿疾忌醫",
+      "answer": "諱",
+      "display": "諱",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第59題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f060",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "混＿視聽",
+      "answer": "淆",
+      "display": "淆",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第60題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f061",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "鴨＿鵝行",
+      "answer": "跩",
+      "display": "跩",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第61題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f062",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿戒沐浴",
+      "answer": "齋",
+      "display": "齋",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第62題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f063",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "洛陽＿貴",
+      "answer": "紙",
+      "display": "紙",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第63題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f064",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "一葉知＿",
+      "answer": "秋",
+      "display": "秋",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第64題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f065",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "令人發＿",
+      "answer": "噱",
+      "display": "噱",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第65題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f066",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "七＿生煙",
+      "answer": "竅",
+      "display": "竅",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第66題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f067",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "五穀＿收",
+      "answer": "歉",
+      "display": "歉",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第67題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f068",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "酒駕＿事",
+      "answer": "肇",
+      "display": "肇",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第68題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f069",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿拔弩張",
+      "answer": "劍",
+      "display": "劍",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第69題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f070",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿蒻果凍",
+      "answer": "蒟",
+      "display": "蒟",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第70題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f071",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "永不放＿",
+      "answer": "棄",
+      "display": "棄",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第71題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f072",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿蚌相爭",
+      "answer": "鷸",
+      "display": "鷸",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第72題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f073",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "歷歷如＿",
+      "answer": "繪",
+      "display": "繪",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第73題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f074",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "郵＿區號",
+      "answer": "遞",
+      "display": "遞",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第74題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f075",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "過目成＿",
+      "answer": "誦",
+      "display": "誦",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第75題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f076",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "色彩＿斕",
+      "answer": "斑",
+      "display": "斑",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第76題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f077",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "一撇一＿",
+      "answer": "捺",
+      "display": "捺",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第77題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f078",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿論抨擊",
+      "answer": "輿",
+      "display": "輿",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第78題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f079",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "囂張跋＿",
+      "answer": "扈",
+      "display": "扈",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第79題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f080",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "地痞流＿",
+      "answer": "氓",
+      "display": "氓",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第80題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f081",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "剽＿抄襲",
+      "answer": "竊",
+      "display": "竊",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第81題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f082",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "方興未＿",
+      "answer": "艾",
+      "display": "艾",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第82題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f083",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿殺潛能",
+      "answer": "扼",
+      "display": "扼",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第83題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f084",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "驕陽＿人",
+      "answer": "炙",
+      "display": "炙",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第84題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f085",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿鼓相當",
+      "answer": "旗",
+      "display": "旗",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第85題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f086",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "遞出辭＿",
+      "answer": "呈",
+      "display": "呈",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第86題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f087",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "任人＿割",
+      "answer": "宰",
+      "display": "宰",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第87題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f088",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "貪＿枉法",
+      "answer": "贓",
+      "display": "贓",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第88題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f089",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "鯨吞＿食",
+      "answer": "蠶",
+      "display": "蠶",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第89題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f090",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿瀆神明",
+      "answer": "褻",
+      "display": "褻",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第90題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f091",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "互訴＿情",
+      "answer": "衷",
+      "display": "衷",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第91題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f092",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "責無旁＿",
+      "answer": "貸",
+      "display": "貸",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第92題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f093",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "莊嚴肅＿",
+      "answer": "穆",
+      "display": "穆",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第93題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f094",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿月禮盒",
+      "answer": "彌",
+      "display": "彌",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第94題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f095",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "夢＿以求",
+      "answer": "寐",
+      "display": "寐",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第95題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f096",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "秉＿夜遊",
+      "answer": "燭",
+      "display": "燭",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第96題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f097",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿回一局",
+      "answer": "扳",
+      "display": "扳",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第97題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f098",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿衛尊嚴",
+      "answer": "捍",
+      "display": "捍",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第98題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f099",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿區員警",
+      "answer": "轄",
+      "display": "轄",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第99題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
+      ]
+    },
+    {
+      "id": "national-103-elementary-f100",
+      "competition": "national",
+      "year": 103,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "＿本主義",
+      "answer": "資",
+      "display": "資",
+      "explanation": "員山國小收錄之103年全國語文競賽國小學生組字音字形解答PDF，字形第100題。",
+      "source_id": "yuanshan-103-answer-pdf",
+      "source_page": "103小生組全國賽解答.pdf，字形部分",
+      "verification_status": "verified",
+      "tags": [
+        "103年全國語文競賽",
+        "員山國小原始題庫",
+        "官方答案PDF",
+        "字形"
       ]
     }
   ]
