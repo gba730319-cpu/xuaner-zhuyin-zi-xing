@@ -102,8 +102,8 @@
       "title": "111 年全國語文競賽國小組字音字形試題（教育部成果專輯 PDF）",
       "url": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
       "source_type": "official_archive_pdf",
-      "status": "official_pdf_text_layer_extracted_partial",
-      "notes": "已透過搜尋索引及PDF全文解析定位成果專輯第381-383頁國小組字音字形題目。PDF文字層可讀出字音題的部分分組表格（1-10、26-35、51-60、76-85）及字形題頁面；字形頁另有視覺化格線OCR描述100個編號，但文字層有明顯辨識錯誤。PDF二進位下載與頁面截圖均逾時/失敗，未完成逐題核對，不能視為完整題庫或答案卷。"
+      "status": "official_pdf_full_question_pages_text_extracted_ocr_unverified",
+      "notes": "已成功開啟官方成果專輯全文索引並定位第381-383頁國小組完整字音、字形題目表格：字音1-100分4組表格，字形1-100分8組表格。全文解析可讀取大部分內容，但字形題目文字層及少數字音詞語有OCR錯字/缺字；未下載PDF二進位，未逐字核對原頁圖像與正式答案。可視為完整頁面已取得文字層，不可視為題目已校訂或可供正式練習。"
     },
     {
       "id": "national-110-answer-ntcu",
