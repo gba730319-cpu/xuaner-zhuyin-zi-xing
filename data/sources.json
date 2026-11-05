@@ -380,6 +380,17 @@
         "114國語字音字形-國小組(答案).pdf"
       ],
       "notes": "搜尋引擎於2026-11-05重新索引頁面確認兩份獨立附件名稱。頁面本身的直接存取受限，尚未取得PDF二進位、文字層或直接附件網址；待取得後逐頁核對題目與答案。"
+    },
+    {
+      "id": "moe-reference-practice",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "title": "教育部國語辭典及常用標準字形參考練習（整理題）",
+      "url": "https://dict.revised.moe.edu.tw/",
+      "source_type": "official_dictionary_reference",
+      "status": "reference_practice_source",
+      "notes": "本組為依教育部國語辭典及標準字形概念整理的基礎練習題，不冒充任何年度全國賽或基隆市正式歷屆試題。字音依常用標準讀音整理；字形以常用標準字形與成語用字整理。"
     }
   ]
 }
