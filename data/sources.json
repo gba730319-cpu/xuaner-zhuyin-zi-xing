@@ -179,6 +179,60 @@
       "source_type": "school_question_answer_index",
       "status": "113_attachment_names_confirmed_older_year_links_to_review",
       "notes": "頁面標題涵蓋 97-113 年；目前搜尋摘要明確列出 113 年題目與解答，其他年度需逐一檢查附件。"
+    },
+    {
+      "id": "miaoli-106-112-index",
+      "competition": "national",
+      "group": "elementary",
+      "title": "苗栗縣政府教育處：全國語文競賽國語字音字形參考題庫",
+      "url": "https://www.mlc.edu.tw/System/ses/File/FileList.php?id=1572",
+      "years": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "status": "index_confirmed",
+      "notes": "縣政府教育處檔案清單列出106至112年度國小字音字形PDF；各年度分為2-1、2-2檔案。頁面目前逾時，PDF本體尚未下載。"
+    },
+    {
+      "id": "datong-101-112-index",
+      "competition": "national",
+      "group": "elementary",
+      "title": "桃園市大同國小：歷屆全國語文競賽字音字形題庫",
+      "url": "https://www.ttps.tyc.edu.tw/modules/tadnews/index.php?nsn=4004",
+      "years": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "status": "search_index_confirmed",
+      "notes": "搜尋索引列出101-105合併題解及106-112年度試題/答案PDF。公告頁目前回傳404，需另找可用附件來源。"
+    },
+    {
+      "id": "national-114-pdf-content-audit",
+      "competition": "national",
+      "group": "elementary",
+      "title": "114年官方公告之國小組更正版附件（內容需釐清）",
+      "url": "https://language114.eduweb.tw/Module/Bulletin/Detail.php?ID=17",
+      "years": [
+        111,
+        114
+      ],
+      "status": "content_audit_required",
+      "notes": "官方公告附件名稱為國小組更正版答案卷，但已讀取的PDF文字層前段出現111年題目標題，後段出現114年題目標題；必須逐頁核對，不可直接視為純114答案卷。"
     }
   ]
 }
