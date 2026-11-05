@@ -55,8 +55,8 @@
       "title": "民雄國小歷屆字音字形題目與答案整理",
       "url": "https://www.mhps.cyc.edu.tw/modules/tadnews/index.php?nsn=6030",
       "source_type": "question_and_answer_index",
-      "status": "to_download_and_verify",
-      "notes": "第三方學校整理索引，需逐份確認檔案與年份。"
+      "status": "page_opened_attachment_names_confirmed",
+      "notes": "民雄國小頁面可確認列出 97-112 國小組解答與題目合併 PDF，以及 113 年國小組解答與題目 PDF；目前尚未取得附件二進位檔，故未下載或匯入。"
     },
     {
       "id": "xikou-97-114-index",
@@ -68,7 +68,7 @@
       "title": "新北市溪口國小 115 學年度字音字形參考題庫（列出全國賽歷屆附件）",
       "url": "https://www.wkes.ntpc.edu.tw/p/406-1000-9266%2Cr88.php",
       "source_type": "question_and_answer_index",
-      "status": "listed_not_downloaded",
+      "status": "page_search_index_confirmed_attachment_names",
       "listed_files": [
         "97-112國小組題目.pdf",
         "97-112國小組解答.pdf",
@@ -77,7 +77,7 @@
         "114國語字音字形-國小組(答案).pdf",
         "114年國語字音字形國小組_題目卷.pdf"
       ],
-      "notes": "頁面於 2026-11-04 發布、2026-11-05 更新；搜尋索引可確認附件名稱，但目前尚未取得附件直連與 PDF 本體，不能視為已下載或匯入。頁面提醒正式比賽出題範圍不限於該題庫。"
+      "notes": "搜尋索引可確認列出 97-112、113、114 國小組題目及答案附件；尚未取得附件直連或 PDF 本體，未下載或匯入。"
     },
     {
       "id": "keelung-115-contest-site",
@@ -116,8 +116,9 @@
       "title": "114 年全國語文競賽國小組字音字形答案公告",
       "url": "https://language114.eduweb.tw/Module/Bulletin/Detail.php?ID=17",
       "source_type": "official_answer_announcement",
-      "status": "official_announcement_confirmed_pdf_link_listed",
-      "notes": "官方公告於 2025-11-23 發布，列出國小組更正版答案卷；題目卷仍需另行取得。"
+      "status": "official_pdf_opened_content_reviewed_not_answer_key",
+      "notes": "官方公告頁標示附件名稱為「國語字音字形答案卷-國小組-更正版.pdf」，但實際 PDF 內頁標題為「國小組字音字形試題」，內容呈現待填注音與字形的試題材料，不能視為已取得標準答案。需另外尋找正式答案資料或人工核對。",
+      "pdf_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835"
     },
     {
       "id": "national-113-answer-misnamed-pdf",
