@@ -8,3 +8,4 @@ Thumbs.db
 node_modules/
 dist/
 .vercel/
+\n# Local source PDFs and extraction artifacts\nsource-pdfs/\nartifacts/\n
