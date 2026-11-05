@@ -331,11 +331,14 @@
         "miaoli-106-112-index",
         "datong-101-112-index"
       ],
-      "audit_note": "官方114公告更正版附件的PDF文字層同時出現111及114年度標題；須分頁核對。",
+      "audit_note": "官方114公告更正版附件的PDF文字層同時出現111及114年度標題；須分頁核對。 官方成果專輯可抽取部分文字；OCR疑似有字詞辨識錯誤，尚未完整逐頁校對。",
       "miaoli_attachment_titles": [
         "111年國語字音字形2-1.pdf",
         "111年國語字音字形2-2.pdf"
-      ]
+      ],
+      "official_archive_source": "national-111-moe-archive",
+      "partial_text_extraction_available": true,
+      "partial_pages": "成果專輯第381-383頁"
     },
     {
       "year": 112,
@@ -417,7 +420,7 @@
   ],
   "download_status": "not_downloaded",
   "extraction_status": "not_started",
-  "blocker": "已取得至少一個可直接開啟的官方PDF附件連結，但目前執行環境仍無法取得PDF二進位內容；題目尚不能抽取或匯入。",
+  "blocker": "已突破部分官方PDF文字層讀取，但OCR辨識仍有錯字，且頁面/題目尚未完整校對；需要原頁視覺核對後才能正式匯入。",
   "acquisition_attempts": [
     {
       "source_id": "ankeng-100-112-index",
@@ -457,6 +460,15 @@
       "result": "confirmed 14 PDF attachment filenames covering 106-112, two files per year; direct file endpoint resolved earlier only for 106 part 2-1",
       "downloaded": false,
       "parsed": false
+    },
+    {
+      "source_id": "national-111-moe-archive",
+      "source_url": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
+      "method": "open official PDF and extract text around pages 381-383",
+      "result": "official elementary-group title and partial phonetic/character-form content visible in text extraction; OCR requires manual review",
+      "downloaded": false,
+      "parsed": false,
+      "parsed_partial": true
     }
   ]
 }
