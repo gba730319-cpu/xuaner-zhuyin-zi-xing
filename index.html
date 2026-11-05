@@ -21,7 +21,7 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <main>
 <div class="notice"><strong>練習版本 1.0｜基本功能雛形</strong><br>目前先完成練習流程、作答判斷、錯題本與學習紀錄。畫面中的少量示範題只用來測試功能，<strong>不是基隆市或全國賽歷屆正式題目</strong>；正式題庫會在來源與答案核對後逐批加入。</div>
 <nav class="nav" aria-label="功能選單">
-<button class="active" data-tab="home">首頁</button><button data-tab="exam">模擬比賽</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button><button data-tab="library">題庫狀態</button>
+<button class="active" data-tab="home">首頁</button><button data-tab="exam">模擬比賽</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button><button data-tab="library">題庫狀態</button><button data-tab="importer">題庫匯入</button>
 </nav>
 <section id="home">
 <div class="grid">
@@ -55,6 +55,7 @@ li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font
 <div class="row hidden" id="next-row"><span class="muted" id="explain"></span><button class="action primary" id="next">下一題</button></div>
 </section>
 <section id="library" class="panel hidden"><h2>📚 題庫管理</h2><p class="muted">所有練習共用同一份題庫資料。正式歷屆題目必須完成來源與答案核對，才會標記為已驗證。</p><div class="grid"><article class="card"><div class="muted">目前題目總數</div><div class="metric" id="catalog-total">載入中</div></article><article class="card"><div class="muted">已驗證正式題</div><div class="metric" id="catalog-verified">—</div></article><article class="card"><div class="muted">功能示範題</div><div class="metric" id="catalog-demo">—</div></article></div><h3>題庫分類</h3><div id="catalog-breakdown" class="muted">正在讀取題庫資料…</div><p class="muted" id="catalog-updated"></p><p class="notice">目前示範題不會被誤認為歷屆正式題目。正式題目將依年度、競賽類型、組別、字音／字形及來源頁碼管理。</p></section>
+<section id="importer" class="panel hidden"><h2>📥 歷屆題庫匯入工具</h2><p class="muted">選擇符合題庫格式的 JSON 檔案，先檢查欄位、重複 ID 與查證狀態，再合併並下載新版題庫。下載後仍需將檔案更新到 GitHub，網站才會同步。</p><div class="notice"><strong>匯入格式</strong><br>JSON 最外層需包含 questions 陣列；每題需有 id、competition、year、group、type、prompt、answer、display、source_id、verification_status。正式題必須附年度與來源 ID。</div><p><input id="import-file" type="file" accept=".json,application/json"></p><div class="row"><button class="action primary" id="validate-import">檢查匯入檔</button><button class="action" id="download-catalog" disabled>下載合併後題庫</button></div><div id="import-report" aria-live="polite" class="muted">尚未選擇檔案。</div><div id="import-preview"></div></section>
 <section id="mistakes" class="panel hidden"><div class="row"><h2>⭐ 錯題本</h2><button class="action" id="clear-mistakes">清空錯題</button></div><div id="mistake-list" class="muted">目前還沒有錯題，繼續加油！</div></section>
 <section id="stats" class="panel hidden"><h2>📈 學習統計</h2><div class="grid"><div><div class="muted">累積作答</div><div class="metric" id="stat-attempts">0</div></div><div><div class="muted">答對題數</div><div class="metric" id="stat-correct">0</div></div><div><div class="muted">整體正確率</div><div class="metric" id="stat-rate">—</div></div></div><h3>分類表現</h3><div class="grid"><article class="card"><h3>🔊 字音</h3><div class="metric" id="stat-phonetic-rate">—</div><p class="muted" id="stat-phonetic-detail">尚無紀錄</p></article><article class="card"><h3>✍️ 字形</h3><div class="metric" id="stat-form-rate">—</div><p class="muted" id="stat-form-detail">尚無紀錄</p></article></div><h3>需要加強的題目</h3><div id="weak-list" class="muted">目前還沒有錯題。</div><p class="muted">紀錄保存在目前這台裝置的瀏覽器中；清除瀏覽器資料可能會一併清除紀錄。</p></section>
 </main><footer>璇兒專屬練習網站 · 題庫逐題查證後持續擴充</footer>
@@ -75,6 +76,48 @@ let examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.
 let examAnswers=[],examIndex=0,examSeconds=600,examClock=null,examRunning=false;
 let questionCatalog=null;
 async function loadQuestionCatalog(){try{const response=await fetch("./data/questions/catalog.json");if(!response.ok)throw new Error("題庫讀取失敗");const data=await response.json();if(!Array.isArray(data.questions))throw new Error("題庫格式不正確");questionCatalog=data;bank={phonetic:data.questions.filter(q=>q.type==="phonetic"&&(q.verification_status==="verified"||q.verification_status==="demo")).map(q=>({...q,note:q.explanation||""})),form:data.questions.filter(q=>q.type==="form"&&(q.verification_status==="verified"||q.verification_status==="demo")).map(q=>({...q,note:q.explanation||""}))};examQuestions=[...bank.phonetic.map(q=>({...q,kind:"字音"})),...bank.form.map(q=>({...q,kind:"字形"}))];$("catalog-total").textContent=data.questions.length;$("catalog-verified").textContent=data.questions.filter(q=>q.verification_status==="verified").length;$("catalog-demo").textContent=data.questions.filter(q=>q.verification_status==="demo").length;const years=[...new Set(data.questions.filter(q=>q.year!==null).map(q=>q.year))].sort((a,b)=>a-b);$("catalog-breakdown").textContent="字音 "+bank.phonetic.length+" 題 · 字形 "+bank.form.length+" 題 · 年度資料 "+(years.length?years.map(y=>y+"年").join("、"):"尚無正式年度題目");$("catalog-updated").textContent="題庫更新日期："+(data.updated_at||"未提供");document.querySelectorAll(".tag").forEach(el=>{if(el.textContent==="功能示範題共 6 題")el.textContent="題庫共 "+data.questions.length+" 題"})}catch(error){$("catalog-total").textContent="載入失敗";$("catalog-breakdown").textContent="目前使用內建示範題。請確認網站已部署，且 data/questions/catalog.json 可正常讀取。";}}
+
+let pendingCatalog=null;
+function validateQuestion(q,i){
+ const errors=[],required=["id","competition","year","group","type","prompt","answer","display","source_id","verification_status"];
+ required.forEach(k=>{if(!(k in q))errors.push("第"+(i+1)+"題缺少欄位 "+k)});
+ if(typeof q.id!=="string"||!q.id.trim())errors.push("第"+(i+1)+"題 ID 無效");
+ if(!["keelung","national","other_city","school","demo"].includes(q.competition))errors.push(q.id+": competition 不正確");
+ if(!["elementary"].includes(q.group))errors.push(q.id+": group 不正確");
+ if(!["phonetic","form"].includes(q.type))errors.push(q.id+": type 必須是 phonetic 或 form");
+ if(!["demo","transcribed_unverified","verified"].includes(q.verification_status))errors.push(q.id+": verification_status 不正確");
+ if(typeof q.prompt!=="string"||!q.prompt.trim())errors.push(q.id+": 題目不可空白");
+ if(typeof q.answer!=="string"||!q.answer.trim())errors.push(q.id+": 答案不可空白");
+ if(q.verification_status==="verified"&&(!Number.isInteger(q.year)||!q.source_id||q.competition==="demo"))errors.push(q.id+": 已驗證題必須有年度及正式來源 ID");
+ if(q.verification_status!=="demo"&&q.competition==="demo")errors.push(q.id+": demo 類型只能搭配 demo 狀態");
+ return errors;
+}
+$("validate-import").addEventListener("click",async()=>{
+ const file=$("import-file").files[0];pendingCatalog=null;$("download-catalog").disabled=true;$("import-preview").innerHTML="";
+ if(!file){$("import-report").textContent="請先選擇 JSON 檔案。";return}
+ try{
+  const parsed=JSON.parse(await file.text());
+  if(!parsed||!Array.isArray(parsed.questions))throw new Error("檔案格式錯誤：最外層必須包含 questions 陣列。");
+  const errors=[];parsed.questions.forEach((q,i)=>errors.push(...validateQuestion(q,i)));
+  const ids=parsed.questions.map(q=>q&&q.id).filter(Boolean),duplicates=ids.filter((id,i)=>ids.indexOf(id)!==i);
+  if(duplicates.length)errors.push("匯入檔內有重複 ID："+[...new Set(duplicates)].join("、"));
+  const current=questionCatalog?.questions||[];
+  const currentIds=new Set(current.map(q=>q.id));
+  const collisions=ids.filter(id=>currentIds.has(id));
+  if(collisions.length)errors.push("與現有題庫 ID 衝突："+[...new Set(collisions)].join("、")+"；請先修正 ID，避免覆蓋既有題目。");
+  if(errors.length){$("import-report").innerHTML='<div class="feedback bad"><strong>檢查未通過，共 '+errors.length+' 個問題</strong><ul>'+errors.map(e=>"<li>"+safeText(e)+"</li>").join("")+"</ul></div>";return}
+  pendingCatalog={...questionCatalog,updated_at:new Date().toISOString().slice(0,10),questions:[...current,...parsed.questions]};
+  $("download-catalog").disabled=false;
+  $("import-report").innerHTML='<div class="feedback good"><strong>檢查通過！</strong><br>新增 '+parsed.questions.length+' 題；其中已驗證 '+parsed.questions.filter(q=>q.verification_status==="verified").length+' 題、待核對 '+parsed.questions.filter(q=>q.verification_status==="transcribed_unverified").length+' 題、示範 '+parsed.questions.filter(q=>q.verification_status==="demo").length+' 題。合併後共 '+pendingCatalog.questions.length+' 題。</div>';
+  $("import-preview").innerHTML="<h3>匯入預覽（前 10 題）</h3>"+parsed.questions.slice(0,10).map(q=>'<div class="review-item"><strong>'+safeText(q.id)+"｜"+safeText(q.prompt)+'</strong><p>'+safeText(q.type)+" · "+safeText(q.competition)+" · "+safeText(q.year??"無年度")+" · "+safeText(q.verification_status)+'</p></div>').join("");
+ }catch(e){$("import-report").innerHTML='<div class="feedback bad">'+safeText(e.message||"無法讀取檔案")+"</div>"}
+});
+$("download-catalog").addEventListener("click",()=>{
+ if(!pendingCatalog)return;
+ const blob=new Blob([JSON.stringify(pendingCatalog,null,2)+"\n"],{type:"application/json"});
+ const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="catalog.json";a.click();URL.revokeObjectURL(url);
+});
+
 function showExamQuestion(){const q=examQuestions[examIndex];$("exam-kind").textContent=q.kind;$("exam-prompt").textContent=q.prompt;$("exam-answer").value=examAnswers[examIndex]||"";$("exam-counter").textContent="第 "+(examIndex+1)+" / "+examQuestions.length+" 題";$("exam-progress").style.width=((examIndex+1)/examQuestions.length*100)+"%";$("exam-prev").disabled=examIndex===0;$("exam-next").disabled=examIndex===examQuestions.length-1}
 function examMove(delta){examAnswers[examIndex]=$("exam-answer").value;examIndex=Math.max(0,Math.min(examQuestions.length-1,examIndex+delta));showExamQuestion()}
 function safeText(value){return String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
