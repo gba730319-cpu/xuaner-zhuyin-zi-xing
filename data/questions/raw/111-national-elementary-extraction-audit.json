@@ -48,17 +48,17 @@
     "phonetic_question_numbering_1_to_100_located": true,
     "phonetic_raw_100_positions_transcribed": true,
     "phonetic_text_manually_corrected": false,
-    "character_form_question_numbering_1_to_100_located": false,
+    "character_form_question_numbering_1_to_100_located": true,
     "character_form_text_manually_corrected": false,
     "answers_verified": false,
     "approved_for_practice": false,
     "answer_mirror_found": true
   },
   "next_actions": [
-    "嘗試從安坑學校附件直接下載或找相同檔案的其他鏡像",
-    "取得員山國小111答案PDF的直連",
-    "檢查題目+解答合併檔是否與教育部111官方題本完全一致",
-    "完成答案逐題核對後，再整理字形題1-100"
+    "取得111年國小組字形題第11-100題原始頁面影像，逐格人工辨識",
+    "逐題校對字形題目與缺字位置，並對照標準字體",
+    "尋找獨立答案卷或可靠答案鏡像，逐題驗證",
+    "完成雙來源校對後才匯入正式練習題庫"
   ],
   "retrieval_attempts": [
     {
@@ -105,7 +105,7 @@
     "caution": "成果專輯明示錯漏字均不修正；本次逐字轉錄僅依PDF文字層，仍須與原頁影像/官方答案比對。"
   },
   "answer_source_search": {
-    "status": "answer_and_question_mirror_leads_found_not_verified",
+    "status": "official_question_source_confirms_character_form_section_no_verified_separate_answer_key",
     "sources": [
       {
         "id": "national-111-xindian-ankeng",
@@ -133,5 +133,24 @@
       }
     ],
     "conclusion": "目前找到三個學校索引/第三方鏡像線索，其中安坑有附件下載端點但取檔失敗，員山列有111答案PDF但頁面逾時，大同列有題目+解答合併檔但頁面404；Scribd預覽為2頁且OCR亂碼。尚無一份可讀取且已驗證的正式國小組答案檔。"
+  },
+  "character_form_followup": {
+    "source": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
+    "printed_pages": "383-384",
+    "extracted_lines": "13466-13533",
+    "status": "official_character_form_question_text_found_but_visual_ocr_requires_manual_verification",
+    "confirmed_groups": [
+      "1-10",
+      "26-35",
+      "51-60",
+      "76-85"
+    ],
+    "additional_visual_groups": [
+      "11-25",
+      "36-50",
+      "61-75",
+      "86-100"
+    ],
+    "notes": "官方成果專輯文字層已明確標示111年全國語文競賽國小組字形題；1-85四組表格文字可讀，11-100其餘表格在頁面視覺/OCR抽取中存在大量亂碼及疑似版面串接，不能直接匯入。"
   }
 }
