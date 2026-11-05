@@ -4,30 +4,80 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f8e9f2"><title>璇兒字音字形練習</title>
 <style>
-:root{--ink:#44384a;--muted:#766b7d;--pink:#f4dce9;--lav:#e9e3f8;--paper:#fffdfd;--line:#eadfe9;--accent:#a65b83}
-*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#fff7fb,#f5f1ff);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}
-header{padding:28px 20px 22px;text-align:center;background:linear-gradient(120deg,#f7e2ed,#ebe5fa);border-bottom:1px solid var(--line)}
-h1{margin:0 0 8px;font-size:clamp(25px,5vw,36px)}header p{margin:0;color:var(--muted)}
-main{max-width:980px;margin:24px auto;padding:0 16px}.notice{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;color:var(--muted);line-height:1.7}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0}
-.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 5px 18px #5d36520a}
-.card h2{margin:0 0 8px;font-size:20px}.card p{color:var(--muted);line-height:1.6;min-height:48px}
-button{border:0;border-radius:999px;background:var(--accent);color:white;padding:10px 18px;font-size:15px;cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}
-section.panel{margin-top:18px}.panel h2{font-size:22px}.muted{color:var(--muted)}.pill{display:inline-block;background:var(--lav);padding:5px 10px;border-radius:999px;font-size:13px;margin:3px}
-footer{text-align:center;color:var(--muted);padding:30px 16px;font-size:13px}
+:root{--ink:#40364a;--muted:#766b7d;--pink:#f5e1ed;--lav:#eee9fb;--paper:#fff;--line:#eadfe9;--accent:#a6537d;--green:#287a58;--red:#b74b5a}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#fff8fb,#f5f2ff);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}
+header{padding:25px 16px 20px;text-align:center;background:linear-gradient(120deg,#f7e2ed,#ebe5fa);border-bottom:1px solid var(--line)}h1{font-size:clamp(25px,5vw,35px);margin:0 0 7px}header p{margin:0;color:var(--muted)}
+main{max-width:1000px;margin:22px auto;padding:0 15px 35px}.notice,.panel,.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:17px;box-shadow:0 5px 18px #5d36520a}
+.notice{line-height:1.65;color:var(--muted)}.notice strong{color:var(--ink)}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.nav button,.action{border:0;border-radius:999px;padding:10px 16px;background:var(--lav);color:var(--ink);font-size:15px;cursor:pointer}.nav button.active,.action.primary{background:var(--accent);color:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:15px 0}.card h2{margin:0 0 7px;font-size:19px}.card p{color:var(--muted);line-height:1.55}.metric{font-size:28px;font-weight:750}.muted{color:var(--muted)}.tag{display:inline-block;border-radius:99px;background:var(--lav);padding:4px 9px;font-size:12px;margin:2px}
+input[type=text]{width:100%;padding:13px;border:1px solid #d9cbd9;border-radius:12px;font-size:18px;margin:9px 0 12px;color:var(--ink)}button:disabled{opacity:.45;cursor:not-allowed}
+.question{font-size:clamp(24px,5vw,34px);font-weight:750;letter-spacing:2px;margin:18px 0}.feedback{padding:10px 12px;border-radius:12px;margin:10px 0}.good{background:#e8f5ee;color:var(--green)}.bad{background:#fff0f1;color:var(--red)}
+.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center;justify-content:space-between}.hidden{display:none!important}.progress{height:8px;background:#f0eaf1;border-radius:99px;overflow:hidden}.progress span{display:block;height:100%;background:var(--accent);width:0}
+li{margin:9px 0;line-height:1.5}footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
 </style></head>
 <body>
 <header><h1>🐰 璇兒字音字形練習</h1><p>每天一點點，累積比賽實力</p></header>
 <main>
-<div class="notice"><strong>練習設定</strong><br>以基隆市國小字音字形競賽為主要目標。正式題庫將依年度、競賽類型與來源分開整理；未完成答案覆核的題目不會冒充正式答案。</div>
+<div class="notice"><strong>練習版本 1.0｜基本功能雛形</strong><br>目前先完成練習流程、作答判斷、錯題本與學習紀錄。畫面中的少量示範題只用來測試功能，<strong>不是基隆市或全國賽歷屆正式題目</strong>；正式題庫會在來源與答案核對後逐批加入。</div>
+<nav class="nav" aria-label="功能選單">
+<button class="active" data-tab="home">首頁</button><button data-tab="phonetic">字音練習</button><button data-tab="form">字形練習</button><button data-tab="mistakes">錯題本</button><button data-tab="stats">學習統計</button>
+</nav>
+<section id="home">
 <div class="grid">
-<article class="card"><h2>🔊 字音練習</h2><p>熟悉國字讀音、多音字與注音辨識。</p><button disabled>題庫整理中</button></article>
-<article class="card"><h2>✍️ 字形練習</h2><p>練習標準字形、部件辨識與易錯字。</p><button disabled>題庫整理中</button></article>
-<article class="card"><h2>📚 成語練習</h2><p>累積常見成語、字義與正確用法。</p><button disabled>題庫整理中</button></article>
-<article class="card"><h2>⭐ 錯題本</h2><p>保存答錯題目，方便日後複習。</p><button disabled>待功能開發</button></article>
-<article class="card"><h2>⏱️ 模擬比賽</h2><p>依正式競賽節奏進行限時練習。</p><button disabled>待題庫完成</button></article>
-<article class="card"><h2>📈 學習統計</h2><p>追蹤練習紀錄與各類題型正確率。</p><button disabled>待功能開發</button></article>
+<article class="card"><h2>🔊 字音練習</h2><p>看詞語，輸入正確注音。</p><button class="action primary" data-go="phonetic">開始練習</button></article>
+<article class="card"><h2>✍️ 字形練習</h2><p>依提示輸入正確詞語。</p><button class="action primary" data-go="form">開始練習</button></article>
+<article class="card"><h2>⭐ 我的錯題本</h2><p>答錯的題目會自動收錄在這裡。</p><button class="action" data-go="mistakes">查看錯題</button></article>
 </div>
-<section class="panel card"><h2>比賽規格參考</h2><span class="pill">字音 100 題</span><span class="pill">字形 100 題</span><span class="pill">作答 10 分鐘</span><span class="pill">每題 0.5 分</span><p class="muted">此處呈現基隆市 115 年競賽規格摘要。實際練習內容仍以各年度正式公告及題本為準。</p></section>
-</main><footer>璇兒專屬練習網站 · 題庫來源與答案將逐筆查證</footer>
-</body></html>
+<div class="grid">
+<div class="card"><div class="muted">累積作答</div><div class="metric" id="home-attempts">0</div></div>
+<div class="card"><div class="muted">答對題數</div><div class="metric" id="home-correct">0</div></div>
+<div class="card"><div class="muted">目前正確率</div><div class="metric" id="home-rate">—</div></div>
+</div>
+<div class="panel"><h2>比賽規格參考</h2><span class="tag">字音 100 題</span><span class="tag">字形 100 題</span><span class="tag">作答 10 分鐘</span><span class="tag">每題 0.5 分</span><p class="muted">依基隆市 115 年競賽規格設定；正式模擬考與完整題庫將於後續版本加入。</p></div>
+</section>
+<section id="practice" class="panel hidden">
+<div class="row"><div><span class="tag" id="mode-tag">字音練習</span><span class="tag">功能示範題</span></div><div class="muted" id="counter">第 1 題</div></div>
+<div class="progress"><span id="progress"></span></div>
+<div class="muted" id="instruction">請輸入詞語的正確注音（可用空格分隔）。</div>
+<div class="question" id="prompt">參差</div>
+<input id="answer" type="text" autocomplete="off" placeholder="在這裡輸入答案">
+<div class="row"><button class="action" id="skip">跳過</button><button class="action primary" id="check">確認答案</button></div>
+<div id="feedback" aria-live="polite"></div>
+<div class="row hidden" id="next-row"><span class="muted" id="explain"></span><button class="action primary" id="next">下一題</button></div>
+</section>
+<section id="mistakes" class="panel hidden"><div class="row"><h2>⭐ 錯題本</h2><button class="action" id="clear-mistakes">清空錯題</button></div><div id="mistake-list" class="muted">目前還沒有錯題，繼續加油！</div></section>
+<section id="stats" class="panel hidden"><h2>📈 學習統計</h2><div class="grid"><div><div class="muted">累積作答</div><div class="metric" id="stat-attempts">0</div></div><div><div class="muted">答對題數</div><div class="metric" id="stat-correct">0</div></div><div><div class="muted">正確率</div><div class="metric" id="stat-rate">—</div></div></div><p class="muted">紀錄保存在目前這台裝置的瀏覽器中；清除瀏覽器資料可能會一併清除紀錄。</p></section>
+</main><footer>璇兒專屬練習網站 · 題庫逐題查證後持續擴充</footer>
+<script>
+const bank={
+ phonetic:[
+  {id:"demo-p1",prompt:"參差",answer:"ㄘㄣ ㄘ",display:"ㄘㄣ ㄘ",note:"「參差」讀作 ㄘㄣ ㄘ。"},
+  {id:"demo-p2",prompt:"剎那",answer:"ㄔㄚˋ ㄋㄚˋ",display:"ㄔㄚˋ ㄋㄚˋ",note:"「剎那」讀作 ㄔㄚˋ ㄋㄚˋ。"},
+  {id:"demo-p3",prompt:"提供",answer:"ㄊㄧˊ ㄍㄨㄥ",display:"ㄊㄧˊ ㄍㄨㄥ",note:"「提供」讀作 ㄊㄧˊ ㄍㄨㄥ。"}
+ ],
+ form:[
+  {id:"demo-f1",prompt:"請輸入正確成語：一曝十＿＿",answer:"寒",display:"寒",note:"正確成語為「一曝十寒」。"},
+  {id:"demo-f2",prompt:"請輸入正確成語：再接再＿＿",answer:"厲",display:"厲",note:"正確成語為「再接再厲」。"},
+  {id:"demo-f3",prompt:"請輸入正確成語：迫不及＿＿",answer:"待",display:"待",note:"正確成語為「迫不及待」。"}
+ ]};
+let mode="phonetic",index=0,locked=false;
+const $=id=>document.getElementById(id);
+const read=(key,def)=>{try{return JSON.parse(localStorage.getItem(key))??def}catch{return def}};
+let stats=read("xuaner-stats",{attempts:0,correct:0}),mistakes=read("xuaner-mistakes",[]);
+function save(){localStorage.setItem("xuaner-stats",JSON.stringify(stats));localStorage.setItem("xuaner-mistakes",JSON.stringify(mistakes));renderStats()}
+function renderStats(){const rate=stats.attempts?Math.round(stats.correct/stats.attempts*100)+"%":"—";$("home-attempts").textContent=$("stat-attempts").textContent=stats.attempts;$("home-correct").textContent=$("stat-correct").textContent=stats.correct;$("home-rate").textContent=$("stat-rate").textContent=rate}
+function tab(name){document.querySelectorAll("main>section").forEach(s=>s.classList.add("hidden"));$(name==="phonetic"||name==="form"?"practice":name).classList.remove("hidden");document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===name));if(name==="mistakes")renderMistakes();if(name==="stats")renderStats()}
+function start(m){mode=m;index=0;locked=false;tab(m);loadQuestion()}
+function loadQuestion(){const q=bank[mode][index];$("mode-tag").textContent=mode==="phonetic"?"字音練習":"字形練習";$("instruction").textContent=mode==="phonetic"?"請輸入詞語的正確注音（可用空格分隔）。":"請依提示輸入缺少的正確字。";$("prompt").textContent=q.prompt;$("answer").value="";$("answer").disabled=false;$("check").disabled=false;$("feedback").innerHTML="";$("next-row").classList.add("hidden");$("counter").textContent="第 "+(index+1)+" / "+bank[mode].length+" 題";$("progress").style.width=(index/bank[mode].length*100)+"%";locked=false;$("answer").focus()}
+function normalize(s){return s.trim().replace(/[，,、。．\s]/g,"").replace(/（/g,"(").replace(/）/g,")")}
+function check(){if(locked)return;const q=bank[mode][index],user=normalize($("answer").value),ok=normalize(user)===normalize(q.answer);if(!user){$("feedback").innerHTML='<div class="feedback bad">先輸入答案再確認喔！</div>';return}locked=true;stats.attempts++;if(ok)stats.correct++;else if(!mistakes.some(x=>x.id===q.id)){mistakes.unshift({...q,modeLabel:mode==="phonetic"?"字音":"字形",userAnswer:$("answer").value,when:new Date().toLocaleDateString()})}save();$("answer").disabled=true;$("check").disabled=true;$("feedback").innerHTML='<div class="feedback '+(ok?"good":"bad")+'">'+(ok?"答對了，太棒了！":"再記一下這題，已加入錯題本。")+'<br>正確答案：<strong>'+q.display+'</strong></div>';$("explain").textContent=q.note;$("next-row").classList.remove("hidden")}
+function next(){index++;if(index>=bank[mode].length){$("prompt").textContent="這組示範題完成！";$("instruction").textContent="你可以回到首頁，或再練習另一類題目。";$("answer").classList.add("hidden");$("check").classList.add("hidden");$("skip").classList.add("hidden");$("next-row").classList.add("hidden");$("progress").style.width="100%";return}loadQuestion()}
+function renderMistakes(){if(!mistakes.length){$("mistake-list").textContent="目前還沒有錯題，繼續加油！";return}$("mistake-list").innerHTML="<ol>"+mistakes.map(q=>"<li><strong>"+q.prompt+"</strong><br>正確答案："+q.display+"<br><span class='muted'>你的答案："+(q.userAnswer||"未作答")+" · "+q.modeLabel+"</span></li>").join("")+"</ol>"}
+document.querySelectorAll(".nav button").forEach(b=>b.addEventListener("click",()=>tab(b.dataset.tab)));
+document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>start(b.dataset.go)));
+$("check").addEventListener("click",check);$("next").addEventListener("click",next);$("skip").addEventListener("click",()=>{if(!locked){index++;if(index>=bank[mode].length){next()}else loadQuestion()}});
+$("answer").addEventListener("keydown",e=>{if(e.key==="Enter"){locked?next():check()}});
+$("clear-mistakes").addEventListener("click",()=>{if(confirm("確定清空錯題本？")){mistakes=[];save();renderMistakes()}});
+renderStats();
+</script></body></html>
