@@ -13,7 +13,8 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -25,7 +26,8 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -37,7 +39,8 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -49,7 +52,9 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -61,7 +66,9 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -73,7 +80,9 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -85,7 +94,9 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -97,7 +108,9 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -109,7 +122,9 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -121,7 +136,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -133,7 +151,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -145,7 +166,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -157,7 +181,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -169,7 +196,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -181,7 +211,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -193,7 +226,10 @@
       "answers_verified": false,
       "source_ids": [
         "minxiong-97-112",
-        "xikou-97-114-index"
+        "xikou-97-114-index",
+        "ankeng-100-112-index",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -206,7 +242,9 @@
       "source_ids": [
         "minxiong-97-112",
         "xikou-97-114-index",
-        "national-113-answer-misnamed-pdf"
+        "national-113-answer-misnamed-pdf",
+        "skes-106-114-index",
+        "xuejin-97-113-index"
       ]
     },
     {
@@ -218,7 +256,8 @@
       "answers_verified": false,
       "source_ids": [
         "xikou-97-114-index",
-        "national-114-answer-official"
+        "national-114-answer-official",
+        "skes-106-114-index"
       ]
     }
   ],
@@ -228,5 +267,10 @@
     "核對每份 PDF 封面年度、組別、頁數與題目順序",
     "逐題拆分字音與字形，人工校對 OCR",
     "依教育部標準與正式答案覆核後才標記 verified"
+  ],
+  "notes": [
+    "已找到多個學校保存的題庫索引，可用於交叉比對年度與附件。",
+    "目前尚未成功下載 PDF 原始檔；因此 downloaded、parsed、answers_verified 均維持 false。",
+    "不同網站可能是同一份全國賽題本的轉載，不可將重複附件計為不同題目。"
   ]
 }
