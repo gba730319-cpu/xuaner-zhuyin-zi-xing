@@ -402,7 +402,7 @@
   ],
   "download_status": "not_downloaded",
   "extraction_status": "not_started",
-  "blocker": "原始公告頁可確認附件名稱，但目前工具未取得附件 PDF 二進位檔；不可把附件存在標記成已下載。",
+  "blocker": "已取得至少一個可直接開啟的官方PDF附件連結，但目前執行環境仍無法取得PDF二進位內容；題目尚不能抽取或匯入。",
   "acquisition_attempts": [
     {
       "source_id": "ankeng-100-112-index",
@@ -425,6 +425,15 @@
       "result": "PDF text layer exposes mixed 111 and 114 year headings; content requires page-by-page audit",
       "downloaded": false,
       "parsed_partial": true
+    },
+    {
+      "source_id": "miaoli-106-112-index",
+      "source_url": "https://mlc.edu.tw/System/ses/File/FileList.php?MainCateID=4&MainItemID=&id=1572&search_Name=&search_UE=",
+      "method": "open official archive page and click 106 year part 2-1 attachment",
+      "attachment_url": "https://mlc.edu.tw/downloadfile.php?code=3ec4eeac29423f7798bd5eb9d838ec48&download=238518&id=1572",
+      "result": "PDF endpoint resolved; web parser identified application/pdf and 8 pages; binary download and screenshot extraction unavailable",
+      "downloaded": false,
+      "parsed": false
     }
   ]
 }
