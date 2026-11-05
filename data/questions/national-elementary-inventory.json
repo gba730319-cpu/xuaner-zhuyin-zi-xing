@@ -194,9 +194,11 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
+      ],
+      "miaoli_attachment_titles": [
+        "106年國語字音字形2-1.pdf",
+        "106年國語字音字形2-2.pdf"
       ]
     },
     {
@@ -219,9 +221,11 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
+      ],
+      "miaoli_attachment_titles": [
+        "107年國語字音字形2-1.pdf",
+        "107年國語字音字形2-2.pdf"
       ]
     },
     {
@@ -244,9 +248,11 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
+      ],
+      "miaoli_attachment_titles": [
+        "108年國語字音字形2-1.pdf",
+        "108年國語字音字形2-2.pdf"
       ]
     },
     {
@@ -269,9 +275,11 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
+      ],
+      "miaoli_attachment_titles": [
+        "109年國語字音字形2-1.pdf",
+        "109年國語字音字形2-2.pdf"
       ]
     },
     {
@@ -294,9 +302,11 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
+      ],
+      "miaoli_attachment_titles": [
+        "110年國語字音字形2-1.pdf",
+        "110年國語字音字形2-2.pdf"
       ]
     },
     {
@@ -319,11 +329,13 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
       ],
-      "audit_note": "官方114公告更正版附件的PDF文字層同時出現111及114年度標題；須分頁核對。"
+      "audit_note": "官方114公告更正版附件的PDF文字層同時出現111及114年度標題；須分頁核對。",
+      "miaoli_attachment_titles": [
+        "111年國語字音字形2-1.pdf",
+        "111年國語字音字形2-2.pdf"
+      ]
     },
     {
       "year": 112,
@@ -345,9 +357,11 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index",
-        "miaoli-106-112-index",
         "datong-101-112-index"
+      ],
+      "miaoli_attachment_titles": [
+        "112年國語字音字形2-1.pdf",
+        "112年國語字音字形2-2.pdf"
       ]
     },
     {
@@ -398,7 +412,8 @@
   "notes": [
     "已找到多個學校保存的題庫索引，可用於交叉比對年度與附件。",
     "目前尚未成功下載 PDF 原始檔；因此 downloaded、parsed、answers_verified 均維持 false。",
-    "不同網站可能是同一份全國賽題本的轉載，不可將重複附件計為不同題目。"
+    "不同網站可能是同一份全國賽題本的轉載，不可將重複附件計為不同題目。",
+    "苗栗縣政府教育處官方清單已確認106-112年度共14個附件檔名；此為附件清單證據，不代表原始PDF已下載。"
   ],
   "download_status": "not_downloaded",
   "extraction_status": "not_started",
@@ -432,6 +447,14 @@
       "method": "open official archive page and click 106 year part 2-1 attachment",
       "attachment_url": "https://mlc.edu.tw/downloadfile.php?code=3ec4eeac29423f7798bd5eb9d838ec48&download=238518&id=1572",
       "result": "PDF endpoint resolved; web parser identified application/pdf and 8 pages; binary download and screenshot extraction unavailable",
+      "downloaded": false,
+      "parsed": false
+    },
+    {
+      "source_id": "miaoli-106-112-index",
+      "source_url": "https://www.mlc.edu.tw/System/ses/File/FileList.php?id=1572",
+      "method": "search-index extraction of official file-list page",
+      "result": "confirmed 14 PDF attachment filenames covering 106-112, two files per year; direct file endpoint resolved earlier only for 106 part 2-1",
       "downloaded": false,
       "parsed": false
     }
