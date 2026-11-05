@@ -11,7 +11,7 @@ const invalid = questions.filter((q) =>
   !q.prompt || !q.answer ||
   !["demo", "verified", "transcribed_unverified"].includes(q.verification_status)
 );
-const scripts = [...html.matchAll(/<script[^>]*>([\\s\\S]*?)<\\/script>/gi)].map((m) => m[1]);
+const scripts = [...html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/gi)].map((m) => m[1]);
 
 if (questions.length < 100) throw new Error(`Expected at least 100 questions; found ${questions.length}`);
 if (duplicateIds.length) throw new Error(`Duplicate question IDs: ${[...new Set(duplicateIds)].join(", ")}`);
