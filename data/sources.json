@@ -55,8 +55,14 @@
       "title": "民雄國小歷屆字音字形題目與答案整理",
       "url": "https://www.mhps.cyc.edu.tw/modules/tadnews/index.php?nsn=6030",
       "source_type": "question_and_answer_index",
-      "status": "page_opened_attachment_names_confirmed",
-      "notes": "民雄國小頁面可確認列出 97-112 國小組解答與題目合併 PDF，以及 113 年國小組解答與題目 PDF；目前尚未取得附件二進位檔，故未下載或匯入。"
+      "status": "attachment_titles_confirmed_on_source_page",
+      "notes": "已開啟原始公告頁並逐項確認附件標題。此為附件存在的證據；本次未能取得 PDF 檔案本體，故不得標記 downloaded。",
+      "attachment_titles": [
+        "97-112國小組解答_compressed.pdf",
+        "97-112國小組題目_compressed.pdf",
+        "113國語字音字形-國小組(解答).pdf",
+        "113國語字音字形-國小組(題目).pdf"
+      ]
     },
     {
       "id": "xikou-97-114-index",
@@ -68,7 +74,7 @@
       "title": "新北市溪口國小 115 學年度字音字形參考題庫（列出全國賽歷屆附件）",
       "url": "https://www.wkes.ntpc.edu.tw/p/406-1000-9266%2Cr88.php",
       "source_type": "question_and_answer_index",
-      "status": "page_search_index_confirmed_attachment_names",
+      "status": "attachment_titles_confirmed_on_source_page",
       "listed_files": [
         "97-112國小組題目.pdf",
         "97-112國小組解答.pdf",
@@ -77,7 +83,7 @@
         "114國語字音字形-國小組(答案).pdf",
         "114年國語字音字形國小組_題目卷.pdf"
       ],
-      "notes": "搜尋索引可確認列出 97-112、113、114 國小組題目及答案附件；尚未取得附件直連或 PDF 本體，未下載或匯入。"
+      "notes": "頁面搜尋結果確認列出 97-112 合併題目/解答 PDF，以及 113、114 年各自題目與答案附件；本次未取得 PDF 檔案本體。"
     },
     {
       "id": "keelung-115-contest-site",
@@ -153,8 +159,12 @@
       "title": "嘉義縣溪口國小 106-114 年全國語文競賽國小組字音字形題目暨解答",
       "url": "https://www.skes.cyc.edu.tw/modules/tadnews/index.php?nsn=1947",
       "source_type": "school_question_answer_index",
-      "status": "attachment_names_confirmed_not_downloaded",
-      "notes": "頁面明列 106-114 年合併題目 PDF 與解答 PDF，為另一個可交叉比對的來源；不是新北市溪口國小。"
+      "status": "attachment_titles_confirmed_on_source_page",
+      "notes": "已開啟原始公告頁並逐項確認附件標題；公告明確表示為全國賽國小組 106-114 年試題暨解答。PDF 本體本次尚未下載。",
+      "attachment_titles": [
+        "106年-114年全國語文競賽國小組字音字形試題.pdf",
+        "106年-114年全國語文競賽國小組字音字形解答.pdf"
+      ]
     },
     {
       "id": "xuejin-97-113-index",
