@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "title": "璇兒字音字形練習題庫",
   "updated_at": "2026-11-05",
-  "notice": "目前僅含功能示範題，並非基隆市或全國語文競賽歷屆正式題目。",
+  "notice": "包含示範題、已核對參考練習題；參考練習題不是任何年度正式歷屆試題。歷屆題目依實際年度另行標示。",
   "question_status": [
     "demo",
     "transcribed_unverified",
@@ -109,6 +109,376 @@
       "verification_status": "demo",
       "tags": [
         "成語"
+      ]
+    },
+    {
+      "id": "ref-p-001",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "參差",
+      "answer": "ㄘㄣ ㄘ",
+      "display": "ㄘㄣ ㄘ",
+      "explanation": "「參差」讀作ㄘㄣ ㄘ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-002",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "剎那",
+      "answer": "ㄔㄚˋ ㄋㄚˋ",
+      "display": "ㄔㄚˋ ㄋㄚˋ",
+      "explanation": "「剎那」讀作ㄔㄚˋ ㄋㄚˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-003",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "提供",
+      "answer": "ㄊㄧˊ ㄍㄨㄥ",
+      "display": "ㄊㄧˊ ㄍㄨㄥ",
+      "explanation": "「提供」的「供」讀ㄍㄨㄥ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-004",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "角色",
+      "answer": "ㄐㄩㄝˊ ㄙㄜˋ",
+      "display": "ㄐㄩㄝˊ ㄙㄜˋ",
+      "explanation": "「角色」讀ㄐㄩㄝˊ ㄙㄜˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-005",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "處理",
+      "answer": "ㄔㄨˇ ㄌㄧˇ",
+      "display": "ㄔㄨˇ ㄌㄧˇ",
+      "explanation": "「處理」的「處」讀ㄔㄨˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-006",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "勉強",
+      "answer": "ㄇㄧㄢˇ ㄑㄧㄤˇ",
+      "display": "ㄇㄧㄢˇ ㄑㄧㄤˇ",
+      "explanation": "「勉強」讀ㄇㄧㄢˇ ㄑㄧㄤˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-007",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "下載",
+      "answer": "ㄒㄧㄚˋ ㄗㄞˋ",
+      "display": "ㄒㄧㄚˋ ㄗㄞˋ",
+      "explanation": "「下載」讀ㄒㄧㄚˋ ㄗㄞˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-008",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "剝削",
+      "answer": "ㄅㄛ ㄒㄩㄝˋ",
+      "display": "ㄅㄛ ㄒㄩㄝˋ",
+      "explanation": "「剝削」讀ㄅㄛ ㄒㄩㄝˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-009",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "徘徊",
+      "answer": "ㄆㄞˊ ㄏㄨㄞˊ",
+      "display": "ㄆㄞˊ ㄏㄨㄞˊ",
+      "explanation": "「徘徊」讀ㄆㄞˊ ㄏㄨㄞˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-p-010",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "酬謝",
+      "answer": "ㄔㄡˊ ㄒㄧㄝˋ",
+      "display": "ㄔㄡˊ ㄒㄧㄝˋ",
+      "explanation": "「酬謝」讀ㄔㄡˊ ㄒㄧㄝˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "教育部辭典參考",
+        "字音"
+      ]
+    },
+    {
+      "id": "ref-f-001",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：一曝十＿",
+      "answer": "寒",
+      "display": "寒",
+      "explanation": "正確成語是「一曝十寒」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-002",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：再接再＿",
+      "answer": "厲",
+      "display": "厲",
+      "explanation": "正確成語是「再接再厲」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-003",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：迫不及＿",
+      "answer": "待",
+      "display": "待",
+      "explanation": "正確成語是「迫不及待」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-004",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：飲＿止渴",
+      "answer": "鴆",
+      "display": "鴆",
+      "explanation": "正確成語是「飲鴆止渴」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-005",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：＿竹難書",
+      "answer": "罄",
+      "display": "罄",
+      "explanation": "正確成語是「罄竹難書」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-006",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：鱗次＿比",
+      "answer": "櫛",
+      "display": "櫛",
+      "explanation": "正確成語是「鱗次櫛比」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-007",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：怙惡不＿",
+      "answer": "悛",
+      "display": "悛",
+      "explanation": "正確成語是「怙惡不悛」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-008",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：不落＿臼",
+      "answer": "窠",
+      "display": "窠",
+      "explanation": "正確成語是「不落窠臼」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-009",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：暴＿天物",
+      "answer": "殄",
+      "display": "殄",
+      "explanation": "正確成語是「暴殄天物」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
+      ]
+    },
+    {
+      "id": "ref-f-010",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：買＿還珠",
+      "answer": "櫝",
+      "display": "櫝",
+      "explanation": "正確成語是「買櫝還珠」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "標準字形參考",
+        "成語",
+        "字形"
       ]
     }
   ]
