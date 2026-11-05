@@ -82,13 +82,13 @@ function validateQuestion(q,i){
  const errors=[],required=["id","competition","year","group","type","prompt","answer","display","source_id","verification_status"];
  required.forEach(k=>{if(!(k in q))errors.push("第"+(i+1)+"題缺少欄位 "+k)});
  if(typeof q.id!=="string"||!q.id.trim())errors.push("第"+(i+1)+"題 ID 無效");
- if(!["keelung","national","other_city","school","demo"].includes(q.competition))errors.push(q.id+": competition 不正確");
+ if(!["keelung","national","other_city","school","demo","reference_practice"].includes(q.competition))errors.push(q.id+": competition 不正確");
  if(!["elementary"].includes(q.group))errors.push(q.id+": group 不正確");
  if(!["phonetic","form"].includes(q.type))errors.push(q.id+": type 必須是 phonetic 或 form");
  if(!["demo","transcribed_unverified","verified"].includes(q.verification_status))errors.push(q.id+": verification_status 不正確");
  if(typeof q.prompt!=="string"||!q.prompt.trim())errors.push(q.id+": 題目不可空白");
  if(typeof q.answer!=="string"||!q.answer.trim())errors.push(q.id+": 答案不可空白");
- if(q.verification_status==="verified"&&(!Number.isInteger(q.year)||!q.source_id||q.competition==="demo"))errors.push(q.id+": 已驗證題必須有年度及正式來源 ID");
+ if(q.verification_status==="verified"&&(!q.source_id||(q.competition!=="reference_practice"&&!Number.isInteger(q.year))||q.competition==="demo"))errors.push(q.id+": 已驗證正式題須有年度及來源；參考練習題可不設年度，但須有來源 ID");
  if(q.verification_status!=="demo"&&q.competition==="demo")errors.push(q.id+": demo 類型只能搭配 demo 狀態");
  return errors;
 }
