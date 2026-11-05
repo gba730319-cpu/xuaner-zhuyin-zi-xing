@@ -14,8 +14,8 @@
       "file": "102小生組全國賽解答.pdf",
       "url": "https://www.yeses.ilc.edu.tw/wp-content/uploads/sites/890/2025/10/102小生組全國賽解答.pdf",
       "year_label": "102",
-      "status": "answer_pdf_text_extracted",
-      "note": "已成功開啟PDF並取得可讀文字，包含字音及字形答案區塊；來源PDF保留原始答案內容，下一步進行題號配對。"
+      "status": "answer_pdf_needs_full_text_retrieval",
+      "note": "已確認有可讀文字，但尚未取得可供可靠逐題匯入的完整文字內容。"
     },
     {
       "file": "103小生組全國賽題目.pdf",
@@ -28,8 +28,8 @@
       "file": "103小生組全國賽解答.pdf",
       "url": "https://www.yeses.ilc.edu.tw/wp-content/uploads/sites/890/2025/10/103小生組全國賽解答.pdf",
       "year_label": "103",
-      "status": "answer_pdf_text_extracted",
-      "note": "已讀取PDF文字；含字音與字形區塊，但需與題目PDF配對後才能匯入正式題庫。"
+      "status": "full_pdf_text_indexed",
+      "note": "已確認PDF全文可讀（617行），同一份PDF含字音與字形試題區塊及對應答案內容；可優先以此檔作為該年度唯一整理來源。"
     }
   ],
   "last_checked": "2026-11-05",
