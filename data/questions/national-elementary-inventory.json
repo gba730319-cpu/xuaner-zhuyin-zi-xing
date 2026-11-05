@@ -1,0 +1,232 @@
+{
+  "description": "歷屆題庫年度盤點。狀態只反映已取得的證據，不代表題目已下載或完成答案驗證。",
+  "last_reviewed": "2026-11-05",
+  "competition": "national",
+  "group": "elementary",
+  "years": [
+    {
+      "year": 97,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 98,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 99,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 100,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 101,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 102,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 103,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 104,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 105,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 106,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 107,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 108,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 109,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 110,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 111,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 112,
+      "question_pdf": "listed_in_97_112_bundle",
+      "answer_pdf": "listed_in_97_112_bundle",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index"
+      ]
+    },
+    {
+      "year": 113,
+      "question_pdf": "listed_separate_attachment",
+      "answer_pdf": "listed_separate_attachment",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "minxiong-97-112",
+        "xikou-97-114-index",
+        "national-113-answer-misnamed-pdf"
+      ]
+    },
+    {
+      "year": 114,
+      "question_pdf": "listed_separate_attachment",
+      "answer_pdf": "listed_separate_attachment",
+      "downloaded": false,
+      "parsed": false,
+      "answers_verified": false,
+      "source_ids": [
+        "xikou-97-114-index",
+        "national-114-answer-official"
+      ]
+    }
+  ],
+  "next_actions": [
+    "取得 97-112 合併題目 PDF 與解答 PDF 原件",
+    "取得 113、114 年分開的題目與解答 PDF 原件",
+    "核對每份 PDF 封面年度、組別、頁數與題目順序",
+    "逐題拆分字音與字形，人工校對 OCR",
+    "依教育部標準與正式答案覆核後才標記 verified"
+  ]
+}
