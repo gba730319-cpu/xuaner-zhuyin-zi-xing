@@ -56,6 +56,15 @@
       ],
       "evidence": "搜尋索引已抽取出部分題號、詞語及答案字。",
       "next": "取得完整PDF文字後結構化。"
+    },
+    {
+      "file": "103小生組全國賽解答.pdf",
+      "source_ref": "turn964572view0",
+      "imported_to_catalog": true,
+      "imported_count": 50,
+      "imported_type": "form",
+      "question_range": "字形第51至100題（依PDF題號）",
+      "note": "由PDF字形區塊中指定字與例詞建立填空題；答案採PDF列示國字。字音區塊尚未匯入，因文字擷取未提供可可靠使用的注音符號。"
     }
   ]
 }
