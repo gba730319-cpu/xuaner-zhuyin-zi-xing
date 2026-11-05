@@ -129,6 +129,45 @@
       "source_type": "school_archive_pdf",
       "status": "needs_manual_pdf_identity_check",
       "notes": "搜尋索引顯示 PDF 內文標題為 113 年全國賽國小組字音字形解答，但檔名含 114 高年級字音字形題目，且 OCR 有明顯錯字；不得直接匯入，需先檢查 PDF 原件。"
+    },
+    {
+      "id": "ankeng-100-112-index",
+      "competition": "national",
+      "year_range": [
+        100,
+        112
+      ],
+      "title": "新北市安坑國小全國賽國小組字音字形考古題索引",
+      "url": "https://www.takes.ntpc.edu.tw/p/406-1000-6215%2Cr73.php",
+      "source_type": "school_question_answer_index",
+      "status": "attachment_names_confirmed_not_downloaded",
+      "notes": "頁面列有 100-110 各年度題目與部分答案，以及 111、112 年資料；逐年附件完整性需再核對。"
+    },
+    {
+      "id": "skes-106-114-index",
+      "competition": "national",
+      "year_range": [
+        106,
+        114
+      ],
+      "title": "嘉義縣溪口國小 106-114 年全國語文競賽國小組字音字形題目暨解答",
+      "url": "https://www.skes.cyc.edu.tw/modules/tadnews/index.php?nsn=1947",
+      "source_type": "school_question_answer_index",
+      "status": "attachment_names_confirmed_not_downloaded",
+      "notes": "頁面明列 106-114 年合併題目 PDF 與解答 PDF，為另一個可交叉比對的來源；不是新北市溪口國小。"
+    },
+    {
+      "id": "xuejin-97-113-index",
+      "competition": "national",
+      "year_range": [
+        97,
+        113
+      ],
+      "title": "宜蘭縣學進國小全國賽題目與解答 97-113 年索引",
+      "url": "https://2blog.ilc.edu.tw/shjes111/2026/01/27/%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E5%85%A8%E5%9C%8B%E8%B3%BD%E9%A1%8C%E7%9B%AE%E8%88%87%E8%A7%A3%E7%AD%9497-113%E5%B9%B4/",
+      "source_type": "school_question_answer_index",
+      "status": "113_attachment_names_confirmed_older_year_links_to_review",
+      "notes": "頁面標題涵蓋 97-113 年；目前搜尋摘要明確列出 113 年題目與解答，其他年度需逐一檢查附件。"
     }
   ]
 }
