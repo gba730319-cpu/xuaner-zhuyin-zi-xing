@@ -321,6 +321,17 @@
       "source_type": "third_party_pdf_mirror",
       "status": "search_index_text_confirmed_binary_download_failed",
       "notes": "搜尋引擎已擷取出111年國小組字音字形試題標題與部分題目文字；直接下載PDF本體失敗。內容可與教育部111成果專輯逐段交叉核對，尚未視為答案卷。"
+    },
+    {
+      "id": "national-111-yuanshan-misnamed-pdf",
+      "competition": "national",
+      "year": 111,
+      "group": "elementary",
+      "title": "員山國小索引所列111國小組答案附件（實際PDF檔名與內文年度不一致）",
+      "url": "https://www.yeses.ilc.edu.tw/wp-content/uploads/sites/890/2023/10/112%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E5%9C%8B%E5%B0%8F%E7%B5%84%E7%AD%94%E6%A1%88.pdf",
+      "source_type": "school_archive_pdf_identity_mismatch",
+      "status": "pdf_search_index_confirms_111_question_paper_not_answer_key",
+      "notes": "員山國小頁面列出「111國語字音字形國小組答案.pdf」，但搜尋引擎索引到的直連檔名為112國語字音字形國小組答案.pdf，內文標題卻是「中華民國一一年全國語文競賽國小組字音字形試題」，目前可確認是111年題目內容，不是答案卷；不得當作標準答案匯入。"
     }
   ]
 }
