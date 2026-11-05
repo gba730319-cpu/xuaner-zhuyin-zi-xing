@@ -1958,6 +1958,24 @@
         "110年全國語文競賽",
         "教育部辭典核對"
       ]
+    },
+    {
+      "id": "national-110-elementary-p004",
+      "competition": "national",
+      "year": 110,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "供（串供）",
+      "answer": "ㄍㄨㄥ",
+      "display": "ㄍㄨㄥ",
+      "explanation": "「供」在「串供」中讀 ㄍㄨㄥ。依教育部《國語辭典簡編本》「串供」詞條核對。",
+      "source_id": "maiya-110-elementary",
+      "source_page": "字音部分第1組",
+      "verification_status": "verified",
+      "tags": [
+        "110年全國語文競賽",
+        "教育部辭典核對"
+      ]
     }
   ]
 }
