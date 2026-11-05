@@ -55,10 +55,9 @@
     "answer_mirror_found": true
   },
   "next_actions": [
-    "取得111年國小組字形題第11-100題原始頁面影像，逐格人工辨識",
-    "逐題校對字形題目與缺字位置，並對照標準字體",
-    "尋找獨立答案卷或可靠答案鏡像，逐題驗證",
-    "完成雙來源校對後才匯入正式練習題庫"
+    "繼續尋找真正的111年國小組答案卷，避免把題目卷誤認為答案卷",
+    "利用教育部官方成果專輯與員山PDF文字索引交叉比對字音題",
+    "補齊字形題原始頁面影像並逐題人工校對"
   ],
   "retrieval_attempts": [
     {
@@ -132,7 +131,21 @@
         "url": "https://www.ttps.tyc.edu.tw/modules/tadnews/index.php?nsn=4004"
       }
     ],
-    "conclusion": "目前找到三個學校索引/第三方鏡像線索，其中安坑有附件下載端點但取檔失敗，員山列有111答案PDF但頁面逾時，大同列有題目+解答合併檔但頁面404；Scribd預覽為2頁且OCR亂碼。尚無一份可讀取且已驗證的正式國小組答案檔。"
+    "conclusion": "目前找到三個學校索引/第三方鏡像線索，其中安坑有附件下載端點但取檔失敗，員山列有111答案PDF但頁面逾時，大同列有題目+解答合併檔但頁面404；Scribd預覽為2頁且OCR亂碼。尚無一份可讀取且已驗證的正式國小組答案檔。",
+    "yuanshan_followup": {
+      "url": "https://www.yeses.ilc.edu.tw/wp-content/uploads/sites/890/2023/10/112%E5%9C%8B%E8%AA%9E%E5%AD%97%E9%9F%B3%E5%AD%97%E5%BD%A2%E5%9C%8B%E5%B0%8F%E7%B5%84%E7%AD%94%E6%A1%88.pdf",
+      "status": "pdf_search_index_confirms_111_question_paper_not_answer_key",
+      "confirmed_by_search_index": [
+        "內文標題為中華民國一一年全國語文競賽國小組字音字形試題",
+        "可讀到字音題題號與題目表格"
+      ],
+      "not_confirmed": [
+        "未取得PDF二進位",
+        "未確認含有標準答案",
+        "檔名112與索引標題111不一致"
+      ],
+      "decision": "列為111題目來源的待核對鏡像，不作答案來源"
+    }
   },
   "character_form_followup": {
     "source": "https://nlc.moe.edu.tw/Upload/files/achieve/111%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD-%E7%AB%B9%E5%AD%97%E5%8D%83%E9%87%8C-%E6%88%90%E6%9E%9C%E5%B0%88%E8%BC%AF-0606-%E4%BF%AE%E6%AD%A3%E7%89%88%281%29.pdf?1140410=",
