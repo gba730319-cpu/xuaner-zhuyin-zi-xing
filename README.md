@@ -18,11 +18,11 @@
 - `index.html`：網站入口與目前的前端骨架。
 - `data/sources.json`：題庫來源登錄表。
 - `data/questions/`：依年度與競賽類型整理的題目資料。
-- `data/schema/question.schema.json`：題目資料格式。
+- `data/schema/question.schema.json`：題目資料格式。\n- `scripts/extract_pdf_pages.py`：歷屆 PDF 逐頁文字抽取工具（只產生待校對稿）。\n- `docs/PDF-IMPORT.md`：PDF 取得、抽取、校對與正式入庫流程。
 - `docs/ROADMAP.md`：建置順序與驗收標準。
 
 ## 目前資料狀態
-目前已建立網站骨架與資料規格；尚未宣稱任何年度題庫已完整匯入或全部答案已覆核。請依來源登錄表逐筆確認後再匯入。
+目前已建立網站骨架、年度盤點與 PDF 逐頁抽取工具；歷屆附件索引已確認，但原始 PDF 本體尚未成功下載，因此目前沒有任何年度可標記為已抽取或已驗證。
 
 ## 本機預覽
 此版本為純靜態網站，可直接以瀏覽器開啟 `index.html`；部署至 Vercel 時可使用專案根目錄作為靜態輸出。
