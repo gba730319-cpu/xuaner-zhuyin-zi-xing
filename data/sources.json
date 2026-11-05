@@ -146,8 +146,9 @@
       "title": "新北市安坑國小全國賽國小組字音字形考古題索引",
       "url": "https://www.takes.ntpc.edu.tw/p/406-1000-6215%2Cr73.php",
       "source_type": "school_question_answer_index",
-      "status": "attachment_names_confirmed_not_downloaded",
-      "notes": "頁面列有 100-110 各年度題目與部分答案，以及 111、112 年資料；逐年附件完整性需再核對。"
+      "status": "page_opened_attachment_links_confirmed",
+      "notes": "已開啟原始頁並確認附件清單，頁面列出100-110等年度PDF，並包含111、112年度檔案。逐項點擊後下載端回傳 application/octet-stream，工具無法取得PDF本體。",
+      "attachment_year_range": "100-112 (page title says 100-110; attachment list includes 111 and 112)"
     },
     {
       "id": "skes-106-114-index",
