@@ -480,6 +480,386 @@
         "成語",
         "字形"
       ]
+    },
+    {
+      "id": "ref-p-011",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "供給",
+      "answer": "ㄍㄨㄥ ㄐㄧˇ",
+      "display": "ㄍㄨㄥ ㄐㄧˇ",
+      "explanation": "「供給」的「供」讀ㄍㄨㄥ，「給」讀ㄐㄧˇ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-012",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "供不應求",
+      "answer": "ㄍㄨㄥ ㄅㄨˋ ㄧㄥˋ ㄑㄧㄡˊ",
+      "display": "ㄍㄨㄥ ㄅㄨˋ ㄧㄥˋ ㄑㄧㄡˊ",
+      "explanation": "「供不應求」讀ㄍㄨㄥ ㄅㄨˋ ㄧㄥˋ ㄑㄧㄡˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-013",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "應屆",
+      "answer": "ㄧㄥˋ ㄐㄧㄝˋ",
+      "display": "ㄧㄥˋ ㄐㄧㄝˋ",
+      "explanation": "「應屆」的「應」讀ㄧㄥˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-014",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "一模一樣",
+      "answer": "ㄧ ㄇㄨˊ ㄧ ㄧㄤˋ",
+      "display": "ㄧ ㄇㄨˊ ㄧ ㄧㄤˋ",
+      "explanation": "「一模一樣」的「模」讀ㄇㄨˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-015",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "模樣",
+      "answer": "ㄇㄨˊ ㄧㄤˋ",
+      "display": "ㄇㄨˊ ㄧㄤˋ",
+      "explanation": "「模樣」的「模」讀ㄇㄨˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-016",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "校對",
+      "answer": "ㄐㄧㄠˋ ㄉㄨㄟˋ",
+      "display": "ㄐㄧㄠˋ ㄉㄨㄟˋ",
+      "explanation": "「校對」的「校」讀ㄐㄧㄠˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-017",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "校園",
+      "answer": "ㄒㄧㄠˋ ㄩㄢˊ",
+      "display": "ㄒㄧㄠˋ ㄩㄢˊ",
+      "explanation": "「校園」的「校」讀ㄒㄧㄠˋ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-018",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "折耗",
+      "answer": "ㄓㄜˊ ㄏㄠˋ",
+      "display": "ㄓㄜˊ ㄏㄠˋ",
+      "explanation": "「折耗」的「折」讀ㄓㄜˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-019",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "折本",
+      "answer": "ㄕㄜˊ ㄅㄣˇ",
+      "display": "ㄕㄜˊ ㄅㄣˇ",
+      "explanation": "「折本」的「折」讀ㄕㄜˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-p-020",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "著手",
+      "answer": "ㄓㄨㄛˊ ㄕㄡˇ",
+      "display": "ㄓㄨㄛˊ ㄕㄡˇ",
+      "explanation": "「著手」的「著」讀ㄓㄨㄛˊ。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字音",
+        "多音字",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-011",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：一鼓作＿",
+      "answer": "氣",
+      "display": "氣",
+      "explanation": "正確成語是「一鼓作氣」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-012",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：川流不＿",
+      "answer": "息",
+      "display": "息",
+      "explanation": "正確成語是「川流不息」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-013",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：迫在眉＿",
+      "answer": "睫",
+      "display": "睫",
+      "explanation": "正確成語是「迫在眉睫」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-014",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：再接再＿",
+      "answer": "厲",
+      "display": "厲",
+      "explanation": "正確成語是「再接再厲」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-015",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：相形見＿",
+      "answer": "絀",
+      "display": "絀",
+      "explanation": "正確成語是「相形見絀」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-016",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：飲＿止渴",
+      "answer": "鴆",
+      "display": "鴆",
+      "explanation": "正確成語是「飲鴆止渴」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-017",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：毛骨＿然",
+      "answer": "悚",
+      "display": "悚",
+      "explanation": "正確成語是「毛骨悚然」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-018",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：談笑風＿",
+      "answer": "生",
+      "display": "生",
+      "explanation": "正確成語是「談笑風生」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-019",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：不＿而飛",
+      "answer": "脛",
+      "display": "脛",
+      "explanation": "正確成語是「不脛而飛」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
+    },
+    {
+      "id": "ref-f-020",
+      "competition": "reference_practice",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請填入正確字形：＿然成章",
+      "answer": "斐",
+      "display": "斐",
+      "explanation": "正確成語是「斐然成章」。",
+      "source_id": "moe-reference-practice",
+      "source_page": null,
+      "verification_status": "verified",
+      "tags": [
+        "字形",
+        "成語",
+        "參考練習"
+      ]
     }
   ]
 }
