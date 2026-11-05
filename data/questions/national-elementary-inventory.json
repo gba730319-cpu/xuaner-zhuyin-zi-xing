@@ -402,21 +402,25 @@
     },
     {
       "year": 114,
-      "question_pdf": "listed_separate_attachment",
-      "answer_pdf": "listed_separate_attachment",
+      "question_pdf": "official_question_pdf_text_extracted_unverified",
+      "answer_pdf": "listed_separate_attachment_not_yet_verified",
       "downloaded": false,
-      "parsed": false,
+      "parsed": true,
       "answers_verified": false,
       "source_ids": [
         "xikou-97-114-index",
         "national-114-answer-official",
-        "skes-106-114-index"
+        "skes-106-114-index",
+        "national-114-question-sheet"
       ],
       "question_attachment": "114年國語字音字形國小組_題目卷.pdf",
       "answer_attachment": "114國語字音字形-國小組(答案).pdf",
       "attachment_title_confirmed": true,
       "cross_check_source": "skes-106-114-index",
-      "audit_note": "官方114公告更正版附件的PDF文字層同時出現111及114年度標題；須分頁核對。"
+      "audit_note": "已確認教育部官方114年公告附件實際是2頁國小組試題卷（字音100題、字形100題），雖檔名含答案卷字樣但內頁標題為試題；PDF文字層可讀但含OCR錯誤。尚未逐題人工校訂，亦未取得可核驗答案卷。",
+      "question_text_extracted": true,
+      "question_text_manually_corrected": false,
+      "question_audit_file": "data/questions/raw/114-national-elementary-question-audit.json"
     }
   ],
   "next_actions": [
