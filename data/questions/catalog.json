@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "title": "璇兒字音字形練習題庫",
+  "updated_at": "2026-11-05",
+  "notice": "目前僅含功能示範題，並非基隆市或全國語文競賽歷屆正式題目。",
+  "question_status": [
+    "demo",
+    "transcribed_unverified",
+    "verified"
+  ],
+  "questions": [
+    {
+      "id": "demo-p1",
+      "competition": "demo",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "參差",
+      "answer": "ㄘㄣ ㄘ",
+      "display": "ㄘㄣ ㄘ",
+      "explanation": "「參差」讀作 ㄘㄣ ㄘ。",
+      "source_id": null,
+      "source_page": null,
+      "verification_status": "demo",
+      "tags": [
+        "多音字"
+      ]
+    },
+    {
+      "id": "demo-p2",
+      "competition": "demo",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "剎那",
+      "answer": "ㄔㄚˋ ㄋㄚˋ",
+      "display": "ㄔㄚˋ ㄋㄚˋ",
+      "explanation": "「剎那」讀作 ㄔㄚˋ ㄋㄚˋ。",
+      "source_id": null,
+      "source_page": null,
+      "verification_status": "demo",
+      "tags": [
+        "常見詞語"
+      ]
+    },
+    {
+      "id": "demo-p3",
+      "competition": "demo",
+      "year": null,
+      "group": "elementary",
+      "type": "phonetic",
+      "prompt": "提供",
+      "answer": "ㄊㄧˊ ㄍㄨㄥ",
+      "display": "ㄊㄧˊ ㄍㄨㄥ",
+      "explanation": "「提供」讀作 ㄊㄧˊ ㄍㄨㄥ。",
+      "source_id": null,
+      "source_page": null,
+      "verification_status": "demo",
+      "tags": [
+        "常見詞語"
+      ]
+    },
+    {
+      "id": "demo-f1",
+      "competition": "demo",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請輸入正確成語：一曝十＿＿",
+      "answer": "寒",
+      "display": "寒",
+      "explanation": "正確成語為「一曝十寒」。",
+      "source_id": null,
+      "source_page": null,
+      "verification_status": "demo",
+      "tags": [
+        "成語"
+      ]
+    },
+    {
+      "id": "demo-f2",
+      "competition": "demo",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請輸入正確成語：再接再＿＿",
+      "answer": "厲",
+      "display": "厲",
+      "explanation": "正確成語為「再接再厲」。",
+      "source_id": null,
+      "source_page": null,
+      "verification_status": "demo",
+      "tags": [
+        "成語"
+      ]
+    },
+    {
+      "id": "demo-f3",
+      "competition": "demo",
+      "year": null,
+      "group": "elementary",
+      "type": "form",
+      "prompt": "請輸入正確成語：迫不及＿＿",
+      "answer": "待",
+      "display": "待",
+      "explanation": "正確成語為「迫不及待」。",
+      "source_id": null,
+      "source_page": null,
+      "verification_status": "demo",
+      "tags": [
+        "成語"
+      ]
+    }
+  ]
+}
