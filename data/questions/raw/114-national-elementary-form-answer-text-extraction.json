@@ -1,0 +1,32 @@
+{
+  "audit_id": "national-114-elementary-form-answer-text-extraction",
+  "competition": "national",
+  "year": 114,
+  "group": "elementary",
+  "section": "form",
+  "source_id": "national-114-answer-official",
+  "source_url": "https://language114.eduweb.tw/downloadfile.php?aid=17&code=aee19ed35b0e07f7d7caa7c54ccd1f99&download=3835",
+  "document_identity": {
+    "page": 2,
+    "internal_title": "中華民國一一四年全國語文競賽 國小組 字音字形試題",
+    "section_heading": "乙、字形部分"
+  },
+  "extraction_status": "official_page_text_confirmed_raw_table_available_question_pairing_pending",
+  "quality_control": {
+    "official_source_and_pdf_confirmed": true,
+    "page_2_year_114_confirmed": true,
+    "character_form_section_confirmed": true,
+    "question_number_blocks_1_to_100_located": true,
+    "raw_table_text_extractable": true,
+    "all_question_prompt_answer_pairs_manually_reconstructed": false,
+    "ocr_or_layout_alignment_verified": false,
+    "official_answer_pairing_verified": false,
+    "approved_for_practice": false
+  },
+  "notes": [
+    "官方PDF可索引文字層第40-68行顯示：第2頁內頁標題為114年全國語文競賽國小組，乙、字形部分；含四組題號區間1-25、26-50、51-75、76-100的表格。",
+    "表格包含答案字及提示語/詞的文字列，但目前尚未可靠地將每一欄轉成逐題紀錄；不將OCR文字直接當作完成題目。",
+    "同一PDF第1頁內頁標題為111年，屬111年字音資料，不能用來補114年字音。",
+    "新北溪口國小索引另列114年國小組題目卷與答案PDF兩個附件，下一步應取得並交叉核對該獨立題本/答案。"
+  ]
+}
