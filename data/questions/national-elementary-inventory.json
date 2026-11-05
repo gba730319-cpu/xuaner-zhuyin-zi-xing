@@ -329,9 +329,13 @@
       "cross_check_source": "skes-106-114-index",
       "additional_sources": [
         "miaoli-106-112-index",
-        "datong-101-112-index"
+        "datong-101-112-index",
+        "national-111-xindian-ankeng",
+        "national-111-scribd-copy",
+        "national-111-yuanshan-answer-index",
+        "national-111-taoyuan-datong-mirror"
       ],
-      "audit_note": "已從教育部官方成果專輯PDF文字層擷取字音1-100題原始表格，已保存原文但尚未人工校訂；字形題文字層/視覺層有對應不清問題，尚未完整擷取。",
+      "audit_note": "已從教育部官方成果專輯PDF文字層擷取字音1-100題原始表格，已保存原文但尚未人工校訂；字形題文字層/視覺層有對應不清問題，尚未完整擷取。 新增安坑、員山、大同及Scribd四個111題目/答案鏡像線索；均未取得可逐題核對的完整答案檔。",
       "miaoli_attachment_titles": [
         "111年國語字音字形2-1.pdf",
         "111年國語字音字形2-2.pdf"
@@ -343,7 +347,8 @@
       "full_question_numbering_located": true,
       "phonetic_text_transcribed": true,
       "phonetic_question_numbering_1_to_100_located": true,
-      "character_form_question_numbering_1_to_100_located": false
+      "character_form_question_numbering_1_to_100_located": false,
+      "answer_mirror_leads_found": true
     },
     {
       "year": 112,
